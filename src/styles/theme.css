@@ -1,0 +1,224 @@
+/* JavaVerse Design System - Variabile CSS */
+:root {
+    /* Paletă de culori cosmică */
+    --color-background: #0b0a19;
+    --color-background-light: #1a1040;
+    --color-background-card: #27104e;
+    --color-primary: #8a2be2;
+    --color-secondary: #ff00ff;
+    --color-accent: #00ffcc;
+    --color-text-primary: #ffffff;
+    --color-text-secondary: #b0bec5;
+    --color-text-muted: #6c757d;
+    
+    /* Gradienți predefiniti */
+    --gradient-primary: linear-gradient(45deg, #6a0dad, #ff00ff);
+    --gradient-secondary: linear-gradient(45deg, #0d0d5e, #6a0dad, #ff00ff);
+    --gradient-card: linear-gradient(135deg, #1a1040 0%, #320d50 50%, #4c0b6e 100%);
+    --gradient-button: linear-gradient(90deg, #8a2be2, #ff00ff);
+    --gradient-button-hover: linear-gradient(90deg, #ff007f, #ff00ff);
+    
+    /* Umbre */
+    --shadow-sm: 0 2px 5px rgba(0, 0, 0, 0.2);
+    --shadow-md: 0 5px 15px rgba(0, 0, 0, 0.2);
+    --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.3);
+    --shadow-glow: 0 0 15px rgba(255, 0, 255, 0.5);
+    
+    /* Border radius */
+    --border-radius-sm: 5px;
+    --border-radius-md: 10px;
+    --border-radius-lg: 15px;
+    --border-radius-xl: 25px;
+    --border-radius-full: 50%;
+    
+    /* Spacing */
+    --spacing-xs: 5px;
+    --spacing-sm: 10px;
+    --spacing-md: 15px;
+    --spacing-lg: 20px;
+    --spacing-xl: 30px;
+    
+    /* Tranziții */
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+    --transition-slow: 0.5s ease;
+    
+    /* Fonturi */
+    --font-family-main: 'Poppins', 'Roboto', sans-serif;
+    --font-family-heading: 'Poppins', 'Roboto', sans-serif;
+    --font-family-code: 'Source Code Pro', monospace;
+    
+    /* Dimensiuni font */
+    --font-size-xs: 0.75rem;  /* 12px */
+    --font-size-sm: 0.875rem; /* 14px */
+    --font-size-md: 1rem;     /* 16px */
+    --font-size-lg: 1.25rem;  /* 20px */
+    --font-size-xl: 1.5rem;   /* 24px */
+    --font-size-2xl: 2rem;    /* 32px */
+    --font-size-3xl: 2.5rem;  /* 40px */
+    
+    /* Grosimi font */
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    
+    /* Animații */
+    --animation-duration-fast: 0.5s;
+    --animation-duration-normal: 1s;
+    --animation-duration-slow: 2s;
+  }
+  
+  /* Stiluri de bază care se aplică întregii aplicații */
+  body {
+    font-family: var(--font-family-main);
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-heading);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text-primary);
+    margin-top: 0;
+  }
+  
+  a {
+    color: var(--color-accent);
+    text-decoration: none;
+    transition: color var(--transition-normal);
+  }
+  
+  a:hover {
+    color: var(--color-secondary);
+  }
+  
+  button {
+    cursor: pointer;
+    font-family: var(--font-family-main);
+    border: none;
+    transition: all var(--transition-normal);
+  }
+  
+  /* Clase de utilitate pentru butoane */
+  .button-primary {
+    background: var(--gradient-button);
+    color: white;
+    padding: 12px 20px;
+    border-radius: var(--border-radius-xl);
+    font-weight: var(--font-weight-medium);
+    box-shadow: var(--shadow-md);
+  }
+  
+  .button-primary:hover {
+    background: var(--gradient-button-hover);
+    box-shadow: var(--shadow-glow);
+    transform: translateY(-2px);
+  }
+  
+  .button-secondary {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--color-text-primary);
+    padding: 12px 20px;
+    border-radius: var(--border-radius-xl);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .button-secondary:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  /* Clase de utilitate pentru carduri */
+  .card {
+    background: var(--gradient-card);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-lg);
+    box-shadow: var(--shadow-md);
+    transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+  }
+  
+  /* Efectul de fundal cu stele */
+  .stars-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+    background-color: var(--color-background);
+    overflow: hidden;
+  }
+  
+  /* Clasă pentru a crea o stea */
+  .star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    border-radius: var(--border-radius-full);
+    opacity: 0.5;
+    animation: twinkle 3s infinite ease-in-out;
+  }
+  
+  /* Animație pentru strălucirea stelelor */
+  @keyframes twinkle {
+    0% {
+      opacity: 0.2;
+      transform: scale(0.5);
+    }
+    50% {
+      opacity: 0.7;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0.2;
+      transform: scale(0.5);
+    }
+  }
+  
+  /* Utilități pentru text */
+  .text-gradient {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .text-accent {
+    color: var(--color-accent);
+  }
+  
+  .text-secondary {
+    color: var(--color-secondary);
+  }
+  
+  /* Utilități pentru container */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-lg);
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    :root {
+      --spacing-lg: 15px;
+      --spacing-xl: 20px;
+    }
+    
+    .container {
+      padding: 0 var(--spacing-md);
+    }
+  }

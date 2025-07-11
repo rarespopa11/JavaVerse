@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"tests\/features\/auth\/register[1:13]","start":1748593524045,"end":1748593524553,"title":"tests\/features\/auth\/register[1:13] 11:25:24.045-11:25:24.553 Successful registration with valid data"},{"id":2,"group":1,"content":"tests\/features\/auth\/register[2:27]","start":1748593524561,"end":1748593524648,"title":"tests\/features\/auth\/register[2:27] 11:25:24.561-11:25:24.648 Failed registration with existing email","className":"failed"},{"id":3,"group":1,"content":"tests\/features\/auth\/register[3:41]","start":1748593524654,"end":1748593524662,"title":"tests\/features\/auth\/register[3:41] 11:25:24.654-11:25:24.662 Failed registration with invalid email format"},{"id":4,"group":1,"content":"tests\/features\/auth\/register[4:55]","start":1748593524665,"end":1748593524740,"title":"tests\/features\/auth\/register[4:55] 11:25:24.665-11:25:24.740 Failed registration with short password","className":"failed"},{"id":5,"group":1,"content":"tests\/features\/auth\/register[5:69]","start":1748593524745,"end":1748593524753,"title":"tests\/features\/auth\/register[5:69] 11:25:24.745-11:25:24.753 Failed registration with missing fields"},{"id":6,"group":1,"content":"tests\/features\/auth\/register[6:76]","start":1748593524757,"end":1748593524937,"title":"tests\/features\/auth\/register[6:76] 11:25:24.757-11:25:24.937 Verify avatar assignment on registration","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

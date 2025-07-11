@@ -1,0 +1,200 @@
+/* src/styles/GoogleAuth.css - Stiluri pentru autentificarea Google */
+
+.google-auth-section {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.google-login-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.875rem 1rem;
+  border: 2px solid #dadce0;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  color: #3c4043;
+  font-size: 0.95rem;
+  font-weight: 500;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.google-login-btn:hover:not(:disabled) {
+  border-color: #4285f4;
+  box-shadow: 0 2px 8px rgba(66, 133, 244, 0.15);
+  background-color: #f8f9ff;
+  transform: translateY(-1px);
+}
+
+.google-login-btn:active:not(:disabled) {
+  transform: translateY(0);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.google-login-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.google-login-btn:focus {
+  outline: 2px solid #4285f4;
+  outline-offset: 2px;
+}
+
+.google-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.google-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.auth-divider {
+  position: relative;
+  text-align: center;
+  margin: 1.5rem 0;
+  color: #5f6368;
+  font-size: 0.875rem;
+}
+
+.auth-divider::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #dadce0;
+  z-index: 1;
+}
+
+.auth-divider span {
+  background-color: #ffffff;
+  padding: 0 1rem;
+  position: relative;
+  z-index: 2;
+  font-weight: 400;
+}
+
+/* Stiluri pentru tema dark */
+@media (prefers-color-scheme: dark) {
+  .google-login-btn {
+    background-color: #2d2d30;
+    color: #e8eaed;
+    border-color: #5f6368;
+  }
+  
+  .google-login-btn:hover:not(:disabled) {
+    background-color: #353537;
+    border-color: #8ab4f8;
+    box-shadow: 0 2px 8px rgba(138, 180, 248, 0.15);
+  }
+  
+  .auth-divider {
+    color: #9aa0a6;
+  }
+  
+  .auth-divider::before {
+    background-color: #5f6368;
+  }
+  
+  .auth-divider span {
+    background-color: #1f1f23;
+  }
+}
+
+/* Stiluri responsive */
+@media (max-width: 768px) {
+  .google-login-btn {
+    padding: 0.75rem 0.875rem;
+    font-size: 0.9rem;
+  }
+  
+  .google-icon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .auth-divider {
+    margin: 1.25rem 0;
+  }
+}
+
+/* Animații pentru loading */
+.google-login-btn.loading {
+  pointer-events: none;
+}
+
+.google-login-btn.loading .google-icon {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Stiluri pentru accesibilitate îmbunătățită */
+.google-login-btn:focus-visible {
+  outline: 3px solid #4285f4;
+  outline-offset: 2px;
+  border-color: #4285f4;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .google-login-btn {
+    border-width: 3px;
+    border-color: #000000;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .google-login-btn:hover:not(:disabled) {
+    border-color: #0000ff;
+    background-color: #f0f0f0;
+  }
+  
+  .auth-divider::before {
+    background-color: #000000;
+    height: 2px;
+  }
+  
+  .auth-divider {
+    color: #000000;
+    font-weight: bold;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .google-login-btn,
+  .google-icon {
+    transition: none;
+    animation: none;
+  }
+  
+  .google-login-btn:hover:not(:disabled) {
+    transform: none;
+  }
+  
+  .google-login-btn:active:not(:disabled) {
+    transform: none;
+  }
+}

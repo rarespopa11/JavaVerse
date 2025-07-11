@@ -1,0 +1,214 @@
+/* src/styles/Avatar.css */
+.jv-avatar {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: all var(--transition-normal);
+  background: linear-gradient(135deg, #1a1040 0%, #320d50 50%, #4c0b6e 100%);
+}
+
+/* Dimensiuni pentru avatar */
+.avatar-small {
+  width: 32px;
+  height: 32px;
+}
+
+.avatar-medium {
+  width: 48px;
+  height: 48px;
+}
+
+.avatar-large {
+  width: 80px;
+  height: 80px;
+}
+
+.avatar-xlarge {
+  width: 120px;
+  height: 120px;
+}
+
+/* Bordură pentru avatar */
+.avatar-border {
+  border: 2px solid rgba(138, 43, 226, 0.6);
+}
+
+.avatar-large.avatar-border,
+.avatar-xlarge.avatar-border {
+  border-width: 3px;
+}
+
+/* Efect de glow */
+.avatar-glow {
+  box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);
+}
+
+/* Avatar clicabil */
+.avatar-clickable {
+  cursor: pointer;
+}
+
+.avatar-clickable:hover {
+  transform: scale(1.05);
+}
+
+.avatar-clickable.avatar-glow:hover {
+  box-shadow: 0 0 25px rgba(138, 43, 226, 0.8);
+}
+
+/* Imagine avatar */
+.avatar-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Avatar emoji */
+.avatar-emoji {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+}
+
+/* Dimensiuni emoji în funcție de mărimea avatar-ului */
+.avatar-small .avatar-emoji {
+  font-size: 18px;
+}
+
+.avatar-medium .avatar-emoji {
+  font-size: 24px;
+}
+
+.avatar-large .avatar-emoji {
+  font-size: 40px;
+}
+
+.avatar-xlarge .avatar-emoji {
+  font-size: 60px;
+}
+
+/* Fallback pentru emoji */
+.avatar-emoji-fallback {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: inherit;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Efecte hover pentru avatar-uri clicabile */
+.avatar-clickable:hover {
+  border-color: var(--color-secondary);
+}
+
+.avatar-clickable:active {
+  transform: scale(0.95);
+}
+
+/* Animație pentru încărcarea avatar-ului */
+@keyframes avatarPulse {
+  0% {
+    opacity: 0.6;
+    transform: scale(0.95);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.02);
+  }
+  100% {
+    opacity: 0.6;
+    transform: scale(0.95);
+  }
+}
+
+.jv-avatar.loading {
+  animation: avatarPulse 1.5s infinite;
+}
+
+/* Stări speciale */
+.jv-avatar.online::after {
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 12px;
+  height: 12px;
+  background: #00e676;
+  border: 2px solid white;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 230, 118, 0.5);
+}
+
+.avatar-small.online::after {
+  width: 8px;
+  height: 8px;
+  bottom: 0;
+  right: 0;
+  border-width: 1px;
+}
+
+.avatar-large.online::after,
+.avatar-xlarge.online::after {
+  width: 16px;
+  height: 16px;
+  bottom: 4px;
+  right: 4px;
+  border-width: 3px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .avatar-large {
+    width: 64px;
+    height: 64px;
+  }
+  
+  .avatar-large .avatar-emoji {
+    font-size: 32px;
+  }
+  
+  .avatar-xlarge {
+    width: 96px;
+    height: 96px;
+  }
+  
+  .avatar-xlarge .avatar-emoji {
+    font-size: 48px;
+  }
+}
+
+/* Efect de focus pentru accesibilitate */
+.avatar-clickable:focus {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* Group avatars - pentru afișarea mai multor avatar-uri împreună */
+.avatar-group {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-group .jv-avatar {
+  margin-left: -8px;
+  border: 2px solid var(--color-background);
+  position: relative;
+  z-index: 1;
+}
+
+.avatar-group .jv-avatar:first-child {
+  margin-left: 0;
+}
+
+.avatar-group .jv-avatar:hover {
+  z-index: 2;
+}

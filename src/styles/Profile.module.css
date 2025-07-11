@@ -1,0 +1,865 @@
+/* src/styles/Profile.module.css */
+/* Stiluri de bază pentru container */
+.profileContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 30px;
+  background: linear-gradient(135deg, #1a1040 0%, #320d50 50%, #4c0b6e 100%);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), 
+              0 0 40px rgba(128, 0, 255, 0.2);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Efect de stele în fundal */
+.profileContainer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(circle at 20% 30%, rgba(255, 255, 255, 0.2) 1px, transparent 1px),
+    radial-gradient(circle at 40% 70%, rgba(255, 255, 255, 0.2) 1px, transparent 1px),
+    radial-gradient(circle at 60% 40%, rgba(255, 255, 255, 0.2) 1px, transparent 1px),
+    radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.2) 1px, transparent 1px);
+  background-size: 100px 100px;
+  opacity: 0.5;
+  z-index: 0;
+}
+
+/* Header profil cu informații utilizator */
+.profileHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  margin-bottom: 40px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 1;
+}
+
+/* Stiluri pentru containerul info utilizator */
+.userInfo {
+  display: flex;
+  align-items: center;
+}
+
+/* Avatar utilizator */
+.avatarContainer {
+  position: relative;
+  margin-right: 30px;
+}
+
+.userAvatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #8a2be2;
+  box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);
+  transition: all 0.3s ease;
+}
+
+/* Overlay pentru avatar cu opțiunea de schimbare */
+.avatarOverlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.avatarContainer:hover .avatarOverlay {
+  opacity: 1;
+}
+
+.changeAvatarBtn {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Detalii utilizator */
+.userDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.username {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255, 0, 255, 0.7);
+}
+
+.email {
+  font-size: 16px;
+  color: #bbb;
+  margin-bottom: 5px;
+}
+
+.joinDate {
+  font-size: 14px;
+  color: #a39dbc;
+}
+
+/* Container pentru statistici */
+.statsContainer {
+  display: flex;
+  gap: 20px;
+}
+
+/* Card pentru fiecare statistică */
+.statCard {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  min-width: 140px;
+  backdrop-filter: blur(5px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.statCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.statIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #8a2be2, #ff00ff);
+  border-radius: 50%;
+  margin-right: 12px;
+  font-size: 18px;
+}
+
+.statInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.statValue {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.statLabel {
+  font-size: 12px;
+  color: #bbb;
+  white-space: nowrap;
+}
+
+/* Tab-uri pentru navigare */
+.tabsContainer {
+  display: flex;
+  margin-bottom: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 5px;
+  position: relative;
+  z-index: 1;
+}
+
+.tabButton {
+  flex: 1;
+  padding: 12px 5px;
+  border: none;
+  background: transparent;
+  color: #bbb;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  text-align: center;
+}
+
+.tabButton:hover {
+  color: white;
+}
+
+.activeTab {
+  color: white;
+}
+
+.activeTab::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  right: 20%;
+  height: 3px;
+  background: linear-gradient(90deg, #8a2be2, #ff00ff);
+  border-radius: 3px;
+}
+
+/* Conținut tab-uri */
+.tabContent {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding: 25px;
+  min-height: 400px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Grid pentru cursuri */
+.courseGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+/* Card curs */
+.courseCard {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  padding: 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.courseCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(90deg, #8a2be2, #ff00ff);
+  transition: height 0.3s ease;
+}
+
+.courseCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.courseCard:hover::before {
+  height: 7px;
+}
+
+.courseHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.courseName {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.courseActions {
+  display: flex;
+}
+
+.continueButton {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 15px;
+  background: linear-gradient(90deg, #8a2be2, #ff00ff);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.continueButton i {
+  margin-left: 5px;
+}
+
+.continueButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(255, 0, 255, 0.5);
+}
+
+.courseDescription {
+  font-size: 14px;
+  color: #bbb;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+/* Secțiunea de progres */
+.progressSection {
+  margin-bottom: 15px;
+}
+
+.progressInfo {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #bbb;
+  margin-bottom: 8px;
+}
+
+.progressBarContainer {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  height: 8px;
+  overflow: hidden;
+}
+
+.progressBar {
+  height: 100%;
+  border-radius: 10px;
+  transition: width 0.5s ease;
+}
+
+/* Culori progres în funcție de procent */
+.progressLow {
+  background-color: #ff4d4d;
+}
+
+.progressMedium {
+  background-color: #ffaa00;
+}
+
+.progressHigh {
+  background-color: #00e676;
+}
+
+/* Secțiunea de scor test */
+.testScoreSection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.testScore, .testNotTaken {
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.testScore i, .testNotTaken i {
+  margin-right: 5px;
+}
+
+/* Culori în funcție de scor */
+.scoreNone {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #bbb;
+}
+
+.scoreLow {
+  background-color: rgba(255, 77, 77, 0.2);
+  color: #ff4d4d;
+}
+
+.scoreMedium {
+  background-color: rgba(255, 170, 0, 0.2);
+  color: #ffaa00;
+}
+
+.scoreHigh {
+  background-color: rgba(0, 230, 118, 0.2);
+  color: #00e676;
+}
+
+.testNotTaken {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #bbb;
+}
+
+/* Niciun curs înscris */
+.noCourses {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+  width: 100%;
+  height: 300px;
+}
+
+.noCoursesIcon {
+  font-size: 50px;
+  color: rgba(255, 255, 255, 0.2);
+  margin-bottom: 20px;
+}
+
+.noCourses h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.noCourses p {
+  font-size: 16px;
+  color: #bbb;
+  margin-bottom: 20px;
+}
+
+.exploreCourses {
+  padding: 12px 25px;
+  background: linear-gradient(90deg, #8a2be2, #ff00ff);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.exploreCourses:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 0, 255, 0.5);
+}
+
+/* Container pentru realizări */
+.achievementsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+/* Card pentru realizare */
+.achievementCard {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.achievementCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.achievementIcon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.achievementCard h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.achievementCard p {
+  font-size: 14px;
+  color: #bbb;
+}
+
+/* Realizare blocată */
+.lockedAchievement {
+  opacity: 0.6;
+  filter: grayscale(1);
+}
+
+/* Container setări */
+.settingsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+/* Secțiune setări */
+.settingSection {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.settingHeader {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+/* Grupare câmpuri formular */
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.formGroup label {
+  display: block;
+  font-size: 14px;
+  color: #bbb;
+  margin-bottom: 8px;
+}
+
+.formInput {
+  width: 100%;
+  padding: 12px 15px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.formInput:focus {
+  border-color: #8a2be2;
+  box-shadow: 0 0 10px rgba(138, 43, 226, 0.3);
+  outline: none;
+}
+
+/* Buton pentru salvare */
+.saveButton {
+  padding: 12px 25px;
+  background: linear-gradient(90deg, #8a2be2, #ff00ff);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.saveButton:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px rgba(255, 0, 255, 0.5);
+}
+
+/* Animație loading */
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  color: white;
+}
+
+.loadingSpinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  border-top-color: #8a2be2;
+  animation: spin 1s ease-in-out infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Media Queries pentru responsivitate */
+@media (max-width: 992px) {
+  .profileHeader {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .userInfo {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .statsContainer {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .profileContainer {
+    padding: 20px;
+    margin: 30px 15px;
+  }
+
+  .username {
+    font-size: 24px;
+  }
+  
+  .statsContainer {
+    flex-wrap: wrap;
+  }
+  
+  .statCard {
+    flex: 1 1 calc(50% - 10px);
+  }
+  
+  .courseGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .settingsContainer {
+    grid-template-columns: 1fr;
+  }
+  
+  .achievementsContainer {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+}
+
+@media (max-width: 576px) {
+  .profileHeader {
+    padding: 20px;
+  }
+  
+  .userInfo {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .avatarContainer {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  
+  .tabButton {
+    font-size: 14px;
+    padding: 10px 5px;
+  }
+  
+  .statCard {
+    flex: 1 1 100%;
+  }
+}
+
+/* Efecte hover și active */
+.tabButton:active {
+  transform: scale(0.98);
+}
+
+.courseCard:active,
+.achievementCard:active,
+.saveButton:active,
+.exploreCourses:active,
+.continueButton:active {
+  transform: scale(0.98);
+}
+
+/* Efecte de glow pentru elemente neon */
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px rgba(138, 43, 226, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(138, 43, 226, 0.8), 0 0 30px rgba(255, 0, 255, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(138, 43, 226, 0.5);
+  }
+}
+
+.userAvatar:hover {
+  animation: glow 2s infinite;
+}
+
+/* Efecte suplimentare pentru realizări */
+.achievementIcon {
+  position: relative;
+}
+
+.achievementIcon::after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: radial-gradient(circle, rgba(138, 43, 226, 0.3) 0%, transparent 70%);
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+.achievementCard:hover .achievementIcon::after {
+  opacity: 1;
+}
+
+/* Avatar utilizator - actualizat */
+.userAvatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #8a2be2;
+  box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);
+  transition: all 0.3s ease;
+  display: block;
+}
+
+/* Avatar emoji pentru preset */
+.userAvatarEmoji {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #8a2be2;
+  box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  background: linear-gradient(135deg, #1a1040 0%, #320d50 50%, #4c0b6e 100%);
+}
+
+/* Container avatar - actualizat */
+.avatarContainer {
+  position: relative;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.avatarContainer:hover .userAvatar,
+.avatarContainer:hover .userAvatarEmoji {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(138, 43, 226, 0.7);
+}
+
+/* Overlay pentru avatar cu opțiunea de schimbare - actualizat */
+.avatarOverlay {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background: rgba(0, 0, 0, 0.8);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.3s ease;
+  border: 2px solid #8a2be2;
+  backdrop-filter: blur(5px);
+}
+
+.avatarContainer:hover .avatarOverlay {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.changeAvatarBtn {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.changeAvatarBtn:hover {
+  transform: scale(1.2);
+}
+
+/* Efecte de glow pentru avatar */
+@keyframes avatarGlow {
+  0% {
+    box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(138, 43, 226, 0.8), 0 0 35px rgba(255, 0, 255, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);
+  }
+}
+
+.userAvatar:hover,
+.userAvatarEmoji:hover {
+  animation: avatarGlow 2s infinite;
+}
+
+/* Responsive design pentru avatar */
+@media (max-width: 768px) {
+  .userAvatar,
+  .userAvatarEmoji {
+    width: 100px;
+    height: 100px;
+    border-width: 3px;
+  }
+  
+  .userAvatarEmoji {
+    font-size: 2.5rem;
+  }
+  
+  .avatarOverlay {
+    width: 30px;
+    height: 30px;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .changeAvatarBtn {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .userAvatar,
+  .userAvatarEmoji {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .userAvatarEmoji {
+    font-size: 2rem;
+  }
+  
+  .avatarContainer {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

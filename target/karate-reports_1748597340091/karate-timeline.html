@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"tests\/features\/auth\/register[1:14]","start":1748597219474,"end":1748597220079,"title":"tests\/features\/auth\/register[1:14] 12:26:59.474-12:27:00.079 Successful registration with valid data","className":"failed"},{"id":2,"group":1,"content":"tests\/features\/auth\/register[2:22]","start":1748597220089,"end":1748597220122,"title":"tests\/features\/auth\/register[2:22] 12:27:00.089-12:27:00.122 Failed registration with existing email"},{"id":3,"group":1,"content":"tests\/features\/auth\/register[3:29]","start":1748597220128,"end":1748597220217,"title":"tests\/features\/auth\/register[3:29] 12:27:00.128-12:27:00.217 Failed registration with weak password","className":"failed"},{"id":4,"group":1,"content":"tests\/features\/auth\/register[4:36]","start":1748597220221,"end":1748597220236,"title":"tests\/features\/auth\/register[4:36] 12:27:00.221-12:27:00.236 Failed registration with missing email"},{"id":5,"group":1,"content":"tests\/features\/auth\/register[5:43]","start":1748597220241,"end":1748597220279,"title":"tests\/features\/auth\/register[5:43] 12:27:00.241-12:27:00.279 Failed registration with missing password","className":"failed"},{"id":6,"group":1,"content":"tests\/features\/auth\/register[6:50]","start":1748597220285,"end":1748597220395,"title":"tests\/features\/auth\/register[6:50] 12:27:00.285-12:27:00.395 Failed registration with missing username","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

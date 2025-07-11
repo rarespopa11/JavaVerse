@@ -1,0 +1,4779 @@
+09:05:49.141 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+09:09:26.795 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+09:09:27.496 [main]  ERROR c.intuit.karate.core.FeatureParser - not a valid feature file: tests/features/courses/progress.feature - mismatched input '<EOF>' expecting {FEATURE_TAGS, FEATURE}
+09:11:20.344 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+09:11:20.969 [main]  ERROR c.intuit.karate.core.FeatureParser - not a valid feature file: tests/features/courses/progress.feature - mismatched input '<EOF>' expecting {FEATURE_TAGS, FEATURE}
+09:22:21.889 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+09:36:11.981 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+09:36:12.510 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748586972505
+09:36:13.943 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+09:36:13.961 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+09:36:13.976 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+09:36:13.990 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+09:36:13.998 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+09:36:14.006 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+09:36:15.462 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) tests/features/auth/login.feature
+09:37:09.903 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+09:37:10.688 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748587030678
+09:37:10.724 [main]  DEBUG com.intuit.karate.Suite - waiting for 8 features to complete
+09:37:12.370 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+09:37:12.393 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+09:37:12.404 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+09:37:12.414 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+09:37:12.423 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+09:37:12.433 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+09:37:12.444 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+09:37:12.455 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+09:37:12.465 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+09:37:14.215 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 8 (7 remaining) tests/features/achievements/achievements.feature
+09:37:14.233 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+09:37:14.240 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+09:37:14.246 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+09:37:14.251 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+09:37:14.257 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+09:37:14.262 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+09:37:14.442 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 8 (6 remaining) tests/features/auth/login.feature
+09:37:14.448 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/register.feature:7
+09:37:14.455 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/register.feature:7
+09:37:14.461 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/register.feature:7
+09:37:14.468 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/register.feature:7
+09:37:14.476 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/register.feature:7
+09:37:14.482 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/register.feature:7
+09:37:14.590 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 8 (5 remaining) tests/features/auth/register.feature
+09:37:14.596 [main]  ERROR com.intuit.karate - tests/features/code/analysis.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/analysis.feature:7
+09:37:14.601 [main]  ERROR com.intuit.karate - tests/features/code/analysis.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/analysis.feature:7
+09:37:14.607 [main]  ERROR com.intuit.karate - tests/features/code/analysis.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/analysis.feature:7
+09:37:14.612 [main]  ERROR com.intuit.karate - tests/features/code/analysis.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/analysis.feature:7
+09:37:14.617 [main]  ERROR com.intuit.karate - tests/features/code/analysis.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/analysis.feature:7
+09:37:14.623 [main]  ERROR com.intuit.karate - tests/features/code/analysis.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/analysis.feature:7
+09:37:14.788 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 8 (4 remaining) tests/features/code/analysis.feature
+09:37:14.794 [main]  ERROR com.intuit.karate - tests/features/code/execution.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/execution.feature:7
+09:37:14.801 [main]  ERROR com.intuit.karate - tests/features/code/execution.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/execution.feature:7
+09:37:14.809 [main]  ERROR com.intuit.karate - tests/features/code/execution.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/execution.feature:7
+09:37:14.815 [main]  ERROR com.intuit.karate - tests/features/code/execution.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/execution.feature:7
+09:37:14.821 [main]  ERROR com.intuit.karate - tests/features/code/execution.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/execution.feature:7
+09:37:14.827 [main]  ERROR com.intuit.karate - tests/features/code/execution.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/execution.feature:7
+09:37:14.832 [main]  ERROR com.intuit.karate - tests/features/code/execution.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/execution.feature:7
+09:37:14.963 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 5 of 8 (3 remaining) tests/features/code/execution.feature
+09:37:14.969 [main]  ERROR com.intuit.karate - tests/features/courses/courses.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/courses/courses.feature:7
+09:37:14.979 [main]  ERROR com.intuit.karate - tests/features/courses/courses.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/courses/courses.feature:7
+09:37:14.989 [main]  ERROR com.intuit.karate - tests/features/courses/courses.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/courses/courses.feature:7
+09:37:14.994 [main]  ERROR com.intuit.karate - tests/features/courses/courses.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/courses/courses.feature:7
+09:37:15.000 [main]  ERROR com.intuit.karate - tests/features/courses/courses.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/courses/courses.feature:7
+09:37:15.104 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 6 of 8 (2 remaining) tests/features/courses/courses.feature
+09:37:15.110 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+09:37:15.115 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+09:37:15.121 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+09:37:15.127 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+09:37:15.132 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+09:37:15.138 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+09:37:15.144 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+09:37:15.150 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+09:37:15.156 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+09:37:15.326 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 7 of 8 (1 remaining) tests/features/profile/avatar.feature
+09:37:15.336 [main]  ERROR com.intuit.karate - tests/features/profile/user.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/user.feature:7
+09:37:15.341 [main]  ERROR com.intuit.karate - tests/features/profile/user.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/user.feature:7
+09:37:15.347 [main]  ERROR com.intuit.karate - tests/features/profile/user.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/user.feature:7
+09:37:15.356 [main]  ERROR com.intuit.karate - tests/features/profile/user.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/user.feature:7
+09:37:15.364 [main]  ERROR com.intuit.karate - tests/features/profile/user.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/user.feature:7
+09:37:15.373 [main]  ERROR com.intuit.karate - tests/features/profile/user.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/user.feature:7
+09:37:15.381 [main]  ERROR com.intuit.karate - tests/features/profile/user.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/user.feature:7
+09:37:15.388 [main]  ERROR com.intuit.karate - tests/features/profile/user.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/user.feature:7
+09:37:15.533 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 8 of 8 (0 remaining) tests/features/profile/user.feature
+09:38:21.826 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+09:38:22.378 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748587102372
+09:38:23.848 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+09:38:23.869 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+09:38:23.880 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+09:38:23.894 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+09:38:23.904 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+09:38:23.917 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+09:38:25.463 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) tests/features/auth/login.feature
+10:41:02.691 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+10:41:03.002 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748590862998
+10:41:03.792 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url karate.config.baseUrl
+js failed:
+>>>>
+01: karate.config.baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "baseUrl" from undefined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:41:03.806 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url karate.config.baseUrl
+js failed:
+>>>>
+01: karate.config.baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "baseUrl" from undefined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:41:03.812 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url karate.config.baseUrl
+js failed:
+>>>>
+01: karate.config.baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "baseUrl" from undefined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:41:03.823 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url karate.config.baseUrl
+js failed:
+>>>>
+01: karate.config.baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "baseUrl" from undefined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:41:03.828 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url karate.config.baseUrl
+js failed:
+>>>>
+01: karate.config.baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "baseUrl" from undefined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:41:03.837 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url karate.config.baseUrl
+js failed:
+>>>>
+01: karate.config.baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "baseUrl" from undefined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:41:04.515 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) tests/features/auth/login.feature
+10:45:22.009 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+10:45:22.242 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748591122240
+10:45:22.943 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:4
+* url karate.config.baseUrl
+js failed:
+>>>>
+01: karate.config.baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "baseUrl" from undefined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:4
+10:45:23.409 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) tests/features/auth/login.feature
+10:45:46.897 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+10:45:47.126 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748591147124
+10:45:47.827 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:4
+* url karate.config.baseUrl
+js failed:
+>>>>
+01: karate.config.baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "baseUrl" from undefined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:4
+10:45:48.278 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) tests/features/auth/login.feature
+10:51:16.845 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+10:51:17.080 [main]  ERROR c.intuit.karate.core.FeatureParser - not a valid feature file: tests/features/auth/login.feature - missing FEATURE at '<EOF>'
+10:54:05.097 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+10:54:05.343 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748591645341
+10:54:06.059 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:4
+* url karate.config.baseUrl
+js failed:
+>>>>
+01: karate.config.baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "baseUrl" from undefined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:4
+10:54:06.507 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) tests/features/auth/login.feature
+10:55:02.123 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+10:55:02.376 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748591702373
+10:55:03.075 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:9
+* url karate.config.baseUrl
+js failed:
+>>>>
+01: karate.config.baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "baseUrl" from undefined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:9
+10:55:03.517 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) tests/features/auth/login.feature
+10:55:26.778 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+10:55:27.031 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748591727029
+10:55:27.734 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:9
+* url karate.config.baseUrl
+js failed:
+>>>>
+01: karate.config.baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "baseUrl" from undefined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:9
+10:55:28.167 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) tests/features/auth/login.feature
+10:56:23.394 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+10:56:23.642 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748591783640
+10:56:24.321 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:56:24.330 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:56:24.337 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:56:24.343 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:56:24.350 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:56:24.355 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:56:24.963 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) tests/features/auth/login.feature
+10:57:11.506 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+10:57:11.752 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748591831750
+10:57:12.452 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:57:12.462 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:57:12.469 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:57:12.476 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:57:12.483 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:57:12.490 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:57:13.056 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) tests/features/auth/login.feature
+10:57:36.526 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+10:57:36.767 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748591856765
+10:57:37.445 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:57:37.452 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:57:37.460 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:57:37.466 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:57:37.474 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:57:37.480 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:57:38.016 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) tests/features/auth/login.feature
+10:59:27.173 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+10:59:27.515 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748591967513
+10:59:27.526 [main]  DEBUG com.intuit.karate.Suite - waiting for 8 features to complete
+10:59:28.207 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+10:59:28.221 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+10:59:28.230 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+10:59:28.237 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+10:59:28.247 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+10:59:28.251 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+10:59:28.258 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+10:59:28.264 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+10:59:28.267 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+10:59:29.077 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 8 (7 remaining) tests/features/achievements/achievements.feature
+10:59:29.084 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:59:29.087 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:59:29.092 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:59:29.097 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:59:29.101 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:59:29.106 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+10:59:29.182 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 8 (6 remaining) tests/features/auth/login.feature
+10:59:29.186 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/register.feature:7
+10:59:29.191 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/register.feature:7
+10:59:29.197 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/register.feature:7
+10:59:29.200 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/register.feature:7
+10:59:29.205 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/register.feature:7
+10:59:29.210 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/register.feature:7
+10:59:29.301 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 8 (5 remaining) tests/features/auth/register.feature
+10:59:29.306 [main]  ERROR com.intuit.karate - tests/features/code/analysis.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/analysis.feature:7
+10:59:29.312 [main]  ERROR com.intuit.karate - tests/features/code/analysis.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/analysis.feature:7
+10:59:29.315 [main]  ERROR com.intuit.karate - tests/features/code/analysis.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/analysis.feature:7
+10:59:29.318 [main]  ERROR com.intuit.karate - tests/features/code/analysis.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/analysis.feature:7
+10:59:29.322 [main]  ERROR com.intuit.karate - tests/features/code/analysis.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/analysis.feature:7
+10:59:29.330 [main]  ERROR com.intuit.karate - tests/features/code/analysis.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/analysis.feature:7
+10:59:29.402 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 8 (4 remaining) tests/features/code/analysis.feature
+10:59:29.405 [main]  ERROR com.intuit.karate - tests/features/code/execution.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/execution.feature:7
+10:59:29.411 [main]  ERROR com.intuit.karate - tests/features/code/execution.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/execution.feature:7
+10:59:29.414 [main]  ERROR com.intuit.karate - tests/features/code/execution.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/execution.feature:7
+10:59:29.417 [main]  ERROR com.intuit.karate - tests/features/code/execution.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/execution.feature:7
+10:59:29.420 [main]  ERROR com.intuit.karate - tests/features/code/execution.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/execution.feature:7
+10:59:29.423 [main]  ERROR com.intuit.karate - tests/features/code/execution.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/execution.feature:7
+10:59:29.427 [main]  ERROR com.intuit.karate - tests/features/code/execution.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/execution.feature:7
+10:59:29.501 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 5 of 8 (3 remaining) tests/features/code/execution.feature
+10:59:29.505 [main]  ERROR com.intuit.karate - tests/features/courses/courses.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/courses/courses.feature:7
+10:59:29.508 [main]  ERROR com.intuit.karate - tests/features/courses/courses.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/courses/courses.feature:7
+10:59:29.515 [main]  ERROR com.intuit.karate - tests/features/courses/courses.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/courses/courses.feature:7
+10:59:29.519 [main]  ERROR com.intuit.karate - tests/features/courses/courses.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/courses/courses.feature:7
+10:59:29.522 [main]  ERROR com.intuit.karate - tests/features/courses/courses.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/courses/courses.feature:7
+10:59:29.594 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 6 of 8 (2 remaining) tests/features/courses/courses.feature
+10:59:29.600 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+10:59:29.603 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+10:59:29.607 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+10:59:29.612 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+10:59:29.615 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+10:59:29.618 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+10:59:29.621 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+10:59:29.627 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+10:59:29.630 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+10:59:29.718 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 7 of 8 (1 remaining) tests/features/profile/avatar.feature
+10:59:29.721 [main]  ERROR com.intuit.karate - tests/features/profile/user.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/user.feature:7
+10:59:29.724 [main]  ERROR com.intuit.karate - tests/features/profile/user.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/user.feature:7
+10:59:29.729 [main]  ERROR com.intuit.karate - tests/features/profile/user.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/user.feature:7
+10:59:29.732 [main]  ERROR com.intuit.karate - tests/features/profile/user.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/user.feature:7
+10:59:29.735 [main]  ERROR com.intuit.karate - tests/features/profile/user.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/user.feature:7
+10:59:29.737 [main]  ERROR com.intuit.karate - tests/features/profile/user.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/user.feature:7
+10:59:29.741 [main]  ERROR com.intuit.karate - tests/features/profile/user.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/user.feature:7
+10:59:29.746 [main]  ERROR com.intuit.karate - tests/features/profile/user.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/user.feature:7
+10:59:29.821 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 8 of 8 (0 remaining) tests/features/profile/user.feature
+11:00:35.592 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+11:00:35.839 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748592035837
+11:00:36.572 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+11:00:36.581 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+11:00:36.592 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+11:00:36.600 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+11:00:36.608 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+11:00:36.613 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:7
+11:00:37.208 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) tests/features/auth/login.feature
+11:02:55.456 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+11:02:55.695 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748592175693
+11:02:56.405 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:02:56.417 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:02:56.457 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:02:56.458 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test@javaverse.com",
+  "password": "Test123!",
+  "username": "testuser"
+}
+ 
+11:02:56.788 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 52
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test@javaverse.com","password":"Test123!"}
+
+11:02:56.827 [main]  DEBUG com.intuit.karate - response time in milliseconds: 37
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < ETag: W/"2c-EAnCIFy1uGovyo/FU6KYwnjLgrc"
+1 < Date: Fri, 30 May 2025 08:02:56 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"User not found"}
+
+11:02:56.851 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:21
+And match response == { success: true, token: '#string' }
+match failed: EQUALS
+  $ | not equal | match failed for name: 'success' (MAP:MAP)
+  {"success":false,"message":"User not found"}
+  {"success":true,"token":"#string"}
+
+    $.success | not equal (BOOLEAN:BOOLEAN)
+    false
+    true
+
+tests/features/auth/login.feature:21
+11:02:56.866 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:02:56.871 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:02:56.882 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:02:56.883 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test@javaverse.com",
+  "password": "Test123!",
+  "username": "testuser"
+}
+ 
+11:02:56.885 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"invalid@email.com","password":"SomePassword123!"}
+
+11:02:56.891 [main]  DEBUG com.intuit.karate - response time in milliseconds: 5
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < ETag: W/"2c-EAnCIFy1uGovyo/FU6KYwnjLgrc"
+1 < Date: Fri, 30 May 2025 08:02:56 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"User not found"}
+
+11:02:56.899 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:02:56.901 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:02:56.904 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:02:56.905 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test@javaverse.com",
+  "password": "Test123!",
+  "username": "testuser"
+}
+ 
+11:02:56.908 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test@javaverse.com","password":"WrongPassword123!"}
+
+11:02:56.912 [main]  DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < ETag: W/"2c-EAnCIFy1uGovyo/FU6KYwnjLgrc"
+1 < Date: Fri, 30 May 2025 08:02:56 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"User not found"}
+
+11:02:56.915 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:36
+And match response == { success: false, message: 'Invalid credentials' }
+match failed: EQUALS
+  $ | not equal | match failed for name: 'message' (MAP:MAP)
+  {"success":false,"message":"User not found"}
+  {"success":false,"message":"Invalid credentials"}
+
+    $.message | not equal (STRING:STRING)
+    'User not found'
+    'Invalid credentials'
+
+tests/features/auth/login.feature:36
+11:02:56.919 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:02:56.920 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:02:56.926 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:02:56.927 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test@javaverse.com",
+  "password": "Test123!",
+  "username": "testuser"
+}
+ 
+11:02:56.929 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 23
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"password":"Test123!"}
+
+11:02:56.936 [main]  DEBUG com.intuit.karate - response time in milliseconds: 6
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < ETag: W/"2c-EAnCIFy1uGovyo/FU6KYwnjLgrc"
+1 < Date: Fri, 30 May 2025 08:02:56 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"User not found"}
+
+11:02:56.946 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:02:56.947 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:02:56.952 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:02:56.953 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test@javaverse.com",
+  "password": "Test123!",
+  "username": "testuser"
+}
+ 
+11:02:56.955 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 30
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test@javaverse.com"}
+
+11:02:56.958 [main]  DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < ETag: W/"2c-EAnCIFy1uGovyo/FU6KYwnjLgrc"
+1 < Date: Fri, 30 May 2025 08:02:56 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"User not found"}
+
+11:02:56.966 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:02:56.968 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:02:56.971 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:02:56.971 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test@javaverse.com",
+  "password": "Test123!",
+  "username": "testuser"
+}
+ 
+11:02:56.973 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 52
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test@javaverse.com","password":"Test123!"}
+
+11:02:56.976 [main]  DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < ETag: W/"2c-EAnCIFy1uGovyo/FU6KYwnjLgrc"
+1 < Date: Fri, 30 May 2025 08:02:56 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"User not found"}
+
+11:02:56.978 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:57
+And match response.success == true
+match failed: EQUALS
+  $ | not equal (BOOLEAN:BOOLEAN)
+  false
+  true
+
+tests/features/auth/login.feature:57
+11:02:57.573 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) tests/features/auth/login.feature
+11:13:02.794 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+11:13:03.043 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748592783041
+11:13:03.793 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:13:03.802 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:13:03.844 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:13:03.845 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+11:13:04.120 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"testul3"}
+
+11:13:04.222 [main]  DEBUG com.intuit.karate - response time in milliseconds: 98
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 198
+1 < ETag: W/"c6-EHTR9UhCPGRz9aPe++pfUcbz/Ss"
+1 < Date: Fri, 30 May 2025 08:13:04 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWQ4Y2I3Y2JhOTI5YjJjZjM3Njg0NSIsImlhdCI6MTc0ODU5Mjc4NCwiZXhwIjoxNzQ4NTk2Mzg0fQ.JXR8ru-kdSPuFghFLpcYJ7VeIE56X337fTj1nf339qY"}
+
+11:13:04.249 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:13:04.258 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:13:04.273 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:13:04.274 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+11:13:04.278 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"invalid@email.com","password":"SomePassword123!"}
+
+11:13:04.282 [main]  DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < ETag: W/"2c-EAnCIFy1uGovyo/FU6KYwnjLgrc"
+1 < Date: Fri, 30 May 2025 08:13:04 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"User not found"}
+
+11:13:04.291 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:13:04.295 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:13:04.301 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:13:04.302 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+11:13:04.307 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 57
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"WrongPassword123!"}
+
+11:13:04.372 [main]  DEBUG com.intuit.karate - response time in milliseconds: 65
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 49
+1 < ETag: W/"31-VmptvJVCxgMiCaKMQdd9IkNBIdc"
+1 < Date: Fri, 30 May 2025 08:13:04 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"Invalid credentials"}
+
+11:13:04.379 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:13:04.380 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:13:04.384 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:13:04.385 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+11:13:04.387 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 22
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"password":"testul3"}
+
+11:13:04.394 [main]  DEBUG com.intuit.karate - response time in milliseconds: 5
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < ETag: W/"2c-EAnCIFy1uGovyo/FU6KYwnjLgrc"
+1 < Date: Fri, 30 May 2025 08:13:04 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"User not found"}
+
+11:13:04.402 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:13:04.403 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:13:04.411 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:13:04.412 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+11:13:04.414 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com"}
+
+11:13:04.421 [main]  DEBUG com.intuit.karate - response time in milliseconds: 7
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 89
+1 < ETag: W/"59-mxXTXgw0w46jZrL26Y+Rz5u80sc"
+1 < Date: Fri, 30 May 2025 08:13:04 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"Login failed","error":"Illegal arguments: undefined, string"}
+
+11:13:04.427 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:13:04.431 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:13:04.438 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:13:04.440 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+11:13:04.442 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"testul3"}
+
+11:13:04.517 [main]  DEBUG com.intuit.karate - response time in milliseconds: 75
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 198
+1 < ETag: W/"c6-EHTR9UhCPGRz9aPe++pfUcbz/Ss"
+1 < Date: Fri, 30 May 2025 08:13:04 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWQ4Y2I3Y2JhOTI5YjJjZjM3Njg0NSIsImlhdCI6MTc0ODU5Mjc4NCwiZXhwIjoxNzQ4NTk2Mzg0fQ.JXR8ru-kdSPuFghFLpcYJ7VeIE56X337fTj1nf339qY"}
+
+11:13:04.526 [main]  ERROR com.intuit.karate - tests/features/auth/login.feature:59
+* def decoded = karate.jwt(token)
+js failed:
+>>>>
+01: karate.jwt(token)
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: invokeMember (jwt) on com.intuit.karate.core.ScenarioBridge failed due to: Unknown identifier: jwt
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/login.feature:59
+11:13:05.119 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) tests/features/auth/login.feature
+11:17:37.730 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+11:17:37.987 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748593057984
+11:17:38.730 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:17:38.740 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:17:38.779 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:17:38.781 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+11:17:39.062 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"testul3"}
+
+11:17:39.174 [main]  DEBUG com.intuit.karate - response time in milliseconds: 109
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 198
+1 < ETag: W/"c6-Zg9TGzLUsx6v0bq8eWuQKyg8iJA"
+1 < Date: Fri, 30 May 2025 08:17:39 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWQ4Y2I3Y2JhOTI5YjJjZjM3Njg0NSIsImlhdCI6MTc0ODU5MzA1OSwiZXhwIjoxNzQ4NTk2NjU5fQ.WLiFH-yDcAlKiPXzEfahGH0ZsgdC4ujS2yeDHpimFQ8"}
+
+11:17:39.196 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:17:39.200 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:17:39.210 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:17:39.211 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+11:17:39.213 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"invalid@email.com","password":"SomePassword123!"}
+
+11:17:39.218 [main]  DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < ETag: W/"2c-EAnCIFy1uGovyo/FU6KYwnjLgrc"
+1 < Date: Fri, 30 May 2025 08:17:39 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"User not found"}
+
+11:17:39.227 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:17:39.228 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:17:39.231 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:17:39.232 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+11:17:39.238 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 57
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"WrongPassword123!"}
+
+11:17:39.303 [main]  DEBUG com.intuit.karate - response time in milliseconds: 64
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 49
+1 < ETag: W/"31-VmptvJVCxgMiCaKMQdd9IkNBIdc"
+1 < Date: Fri, 30 May 2025 08:17:39 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"Invalid credentials"}
+
+11:17:39.308 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:17:39.309 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:17:39.312 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:17:39.312 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+11:17:39.314 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 22
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"password":"testul3"}
+
+11:17:39.321 [main]  DEBUG com.intuit.karate - response time in milliseconds: 6
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < ETag: W/"2c-EAnCIFy1uGovyo/FU6KYwnjLgrc"
+1 < Date: Fri, 30 May 2025 08:17:39 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"User not found"}
+
+11:17:39.327 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:17:39.328 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:17:39.332 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:17:39.333 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+11:17:39.336 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com"}
+
+11:17:39.344 [main]  DEBUG com.intuit.karate - response time in milliseconds: 7
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 89
+1 < ETag: W/"59-mxXTXgw0w46jZrL26Y+Rz5u80sc"
+1 < Date: Fri, 30 May 2025 08:17:39 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"Login failed","error":"Illegal arguments: undefined, string"}
+
+11:17:39.935 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) tests/features/auth/login.feature
+11:19:03.536 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+11:19:03.912 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748593143907
+11:19:03.931 [main]  DEBUG com.intuit.karate.Suite - waiting for 8 features to complete
+11:19:04.678 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+11:19:04.689 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+11:19:04.697 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+11:19:04.705 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+11:19:04.717 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+11:19:04.726 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+11:19:04.733 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+11:19:04.736 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+11:19:04.743 [main]  ERROR com.intuit.karate - tests/features/achievements/achievements.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/achievements/achievements.feature:7
+11:19:05.549 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 8 (7 remaining) tests/features/achievements/achievements.feature
+11:19:05.588 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:19:05.593 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:19:05.615 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:19:05.617 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+11:19:05.938 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"testul3"}
+
+11:19:06.039 [main]  DEBUG com.intuit.karate - response time in milliseconds: 99
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 198
+1 < ETag: W/"c6-rbuHnqMw/ty0k7D2ip8tdGHjzc4"
+1 < Date: Fri, 30 May 2025 08:19:06 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWQ4Y2I3Y2JhOTI5YjJjZjM3Njg0NSIsImlhdCI6MTc0ODU5MzE0NiwiZXhwIjoxNzQ4NTk2NzQ2fQ.HR_K3MTKE19H-hF07IocHRgABP13fTTbq1sZEOYvGe4"}
+
+11:19:06.063 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:19:06.065 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:19:06.068 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:19:06.069 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+11:19:06.071 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"invalid@email.com","password":"SomePassword123!"}
+
+11:19:06.078 [main]  DEBUG com.intuit.karate - response time in milliseconds: 6
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < ETag: W/"2c-EAnCIFy1uGovyo/FU6KYwnjLgrc"
+1 < Date: Fri, 30 May 2025 08:19:06 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"User not found"}
+
+11:19:06.083 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:19:06.084 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:19:06.088 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:19:06.090 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+11:19:06.095 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 57
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"WrongPassword123!"}
+
+11:19:06.163 [main]  DEBUG com.intuit.karate - response time in milliseconds: 67
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 49
+1 < ETag: W/"31-VmptvJVCxgMiCaKMQdd9IkNBIdc"
+1 < Date: Fri, 30 May 2025 08:19:06 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"Invalid credentials"}
+
+11:19:06.167 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:19:06.168 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:19:06.171 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:19:06.173 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+11:19:06.178 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 22
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"password":"testul3"}
+
+11:19:06.182 [main]  DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < ETag: W/"2c-EAnCIFy1uGovyo/FU6KYwnjLgrc"
+1 < Date: Fri, 30 May 2025 08:19:06 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"User not found"}
+
+11:19:06.188 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:19:06.191 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:19:06.196 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:19:06.196 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+11:19:06.197 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com"}
+
+11:19:06.202 [main]  DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 89
+1 < ETag: W/"59-mxXTXgw0w46jZrL26Y+Rz5u80sc"
+1 < Date: Fri, 30 May 2025 08:19:06 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"Login failed","error":"Illegal arguments: undefined, string"}
+
+11:19:06.305 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 8 (6 remaining) tests/features/auth/login.feature
+11:19:06.310 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/register.feature:7
+11:19:06.314 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/register.feature:7
+11:19:06.317 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/register.feature:7
+11:19:06.320 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/register.feature:7
+11:19:06.326 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/register.feature:7
+11:19:06.330 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/register.feature:7
+11:19:06.399 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 8 (5 remaining) tests/features/auth/register.feature
+11:19:06.401 [main]  ERROR com.intuit.karate - tests/features/code/analysis.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/analysis.feature:7
+11:19:06.404 [main]  ERROR com.intuit.karate - tests/features/code/analysis.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/analysis.feature:7
+11:19:06.410 [main]  ERROR com.intuit.karate - tests/features/code/analysis.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/analysis.feature:7
+11:19:06.413 [main]  ERROR com.intuit.karate - tests/features/code/analysis.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/analysis.feature:7
+11:19:06.416 [main]  ERROR com.intuit.karate - tests/features/code/analysis.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/analysis.feature:7
+11:19:06.419 [main]  ERROR com.intuit.karate - tests/features/code/analysis.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/analysis.feature:7
+11:19:06.492 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 8 (4 remaining) tests/features/code/analysis.feature
+11:19:06.498 [main]  ERROR com.intuit.karate - tests/features/code/execution.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/execution.feature:7
+11:19:06.502 [main]  ERROR com.intuit.karate - tests/features/code/execution.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/execution.feature:7
+11:19:06.507 [main]  ERROR com.intuit.karate - tests/features/code/execution.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/execution.feature:7
+11:19:06.511 [main]  ERROR com.intuit.karate - tests/features/code/execution.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/execution.feature:7
+11:19:06.515 [main]  ERROR com.intuit.karate - tests/features/code/execution.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/execution.feature:7
+11:19:06.521 [main]  ERROR com.intuit.karate - tests/features/code/execution.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/execution.feature:7
+11:19:06.524 [main]  ERROR com.intuit.karate - tests/features/code/execution.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/code/execution.feature:7
+11:19:06.618 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 5 of 8 (3 remaining) tests/features/code/execution.feature
+11:19:06.622 [main]  ERROR com.intuit.karate - tests/features/courses/courses.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/courses/courses.feature:7
+11:19:06.624 [main]  ERROR com.intuit.karate - tests/features/courses/courses.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/courses/courses.feature:7
+11:19:06.627 [main]  ERROR com.intuit.karate - tests/features/courses/courses.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/courses/courses.feature:7
+11:19:06.631 [main]  ERROR com.intuit.karate - tests/features/courses/courses.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/courses/courses.feature:7
+11:19:06.635 [main]  ERROR com.intuit.karate - tests/features/courses/courses.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/courses/courses.feature:7
+11:19:06.711 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 6 of 8 (2 remaining) tests/features/courses/courses.feature
+11:19:06.714 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+11:19:06.716 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+11:19:06.719 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+11:19:06.726 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+11:19:06.729 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+11:19:06.732 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+11:19:06.737 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+11:19:06.742 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+11:19:06.745 [main]  ERROR com.intuit.karate - tests/features/profile/avatar.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/avatar.feature:7
+11:19:06.840 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 7 of 8 (1 remaining) tests/features/profile/avatar.feature
+11:19:06.846 [main]  ERROR com.intuit.karate - tests/features/profile/user.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/user.feature:7
+11:19:06.849 [main]  ERROR com.intuit.karate - tests/features/profile/user.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/user.feature:7
+11:19:06.852 [main]  ERROR com.intuit.karate - tests/features/profile/user.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/user.feature:7
+11:19:06.855 [main]  ERROR com.intuit.karate - tests/features/profile/user.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/user.feature:7
+11:19:06.859 [main]  ERROR com.intuit.karate - tests/features/profile/user.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/user.feature:7
+11:19:06.864 [main]  ERROR com.intuit.karate - tests/features/profile/user.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/user.feature:7
+11:19:06.868 [main]  ERROR com.intuit.karate - tests/features/profile/user.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/user.feature:7
+11:19:06.871 [main]  ERROR com.intuit.karate - tests/features/profile/user.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/profile/user.feature:7
+11:19:06.937 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 8 of 8 (0 remaining) tests/features/profile/user.feature
+11:23:44.611 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+11:23:44.856 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748593424853
+11:23:45.542 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/register.feature:7
+11:23:45.549 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/register.feature:7
+11:23:45.556 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/register.feature:7
+11:23:45.561 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/register.feature:7
+11:23:45.565 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/register.feature:7
+11:23:45.569 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+tests/features/auth/register.feature:7
+11:23:46.186 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) tests/features/auth/register.feature
+11:25:23.168 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+11:25:23.419 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748593523417
+11:25:24.435 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/register
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 96
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"username":"user1748593524184","email":"user1748593524178@test.com","password":"ValidPass123!"}
+
+11:25:24.535 [main]  DEBUG com.intuit.karate - response time in milliseconds: 97
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 57
+1 < ETag: W/"39-L4ChN3EFRYuIiTpWUtpbvMTfrpg"
+1 < Date: Fri, 30 May 2025 08:25:24 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":true,"message":"User registered successfully"}
+
+11:25:24.574 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/register
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 82
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"username":"newusername","email":"test@javaverse.com","password":"ValidPass123!"}
+
+11:25:24.644 [main]  DEBUG com.intuit.karate - response time in milliseconds: 68
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 57
+1 < ETag: W/"39-L4ChN3EFRYuIiTpWUtpbvMTfrpg"
+1 < Date: Fri, 30 May 2025 08:25:24 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":true,"message":"User registered successfully"}
+
+11:25:24.649 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:39
+And match response == { success: false, message: 'Email already registered' }
+match failed: EQUALS
+  $ | not equal | match failed for name: 'success' (MAP:MAP)
+  {"success":true,"message":"User registered successfully"}
+  {"success":false,"message":"Email already registered"}
+
+    $.success | not equal (BOOLEAN:BOOLEAN)
+    true
+    false
+
+tests/features/auth/register.feature:39
+11:25:24.660 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/register
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 82
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"username":"user1748593524659","email":"invalidemail","password":"ValidPass123!"}
+
+11:25:24.662 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < ETag: W/"32-8YdCYCz3H5jPwyZpUXF4T7OSIgo"
+1 < Date: Fri, 30 May 2025 08:25:24 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"Invalid email format"}
+
+11:25:24.669 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/register
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 88
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"username":"user1748593524668","email":"user1748593524667@test.com","password":"short"}
+
+11:25:24.736 [main]  DEBUG com.intuit.karate - response time in milliseconds: 67
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 57
+1 < ETag: W/"39-L4ChN3EFRYuIiTpWUtpbvMTfrpg"
+1 < Date: Fri, 30 May 2025 08:25:24 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":true,"message":"User registered successfully"}
+
+11:25:24.740 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:67
+And match response.success == false
+match failed: EQUALS
+  $ | not equal (BOOLEAN:BOOLEAN)
+  true
+  false
+
+tests/features/auth/register.feature:67
+11:25:24.750 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/register
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 2
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{}
+
+11:25:24.753 [main]  DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < ETag: W/"32-8YdCYCz3H5jPwyZpUXF4T7OSIgo"
+1 < Date: Fri, 30 May 2025 08:25:24 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"Invalid email format"}
+
+11:25:24.766 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/register
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 100
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"username":"avatar1748593524764","email":"avatar1748593524763@test.com","password":"ValidPass123!"}
+
+11:25:24.836 [main]  DEBUG com.intuit.karate - response time in milliseconds: 69
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 57
+1 < ETag: W/"39-L4ChN3EFRYuIiTpWUtpbvMTfrpg"
+1 < Date: Fri, 30 May 2025 08:25:24 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":true,"message":"User registered successfully"}
+
+11:25:24.840 [main]  DEBUG com.intuit.karate - request:
+2 > POST http://localhost:5000/api/users/login
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 67
+2 > Host: localhost:5000
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+2 > Accept-Encoding: gzip,deflate
+{"email":"avatar1748593524763@test.com","password":"ValidPass123!"}
+
+11:25:24.917 [main]  DEBUG com.intuit.karate - response time in milliseconds: 76
+2 < 200
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: http://localhost:3000
+2 < Vary: Origin
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 198
+2 < ETag: W/"c6-B+hdEzBrmdNK/U4g995rrrlNBZw"
+2 < Date: Fri, 30 May 2025 08:25:24 GMT
+2 < Connection: keep-alive
+2 < Keep-Alive: timeout=5
+{"success":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4Mzk2Yjc0OWE2YTBmZDM4NGNlZmYzMSIsImlhdCI6MTc0ODU5MzUyNCwiZXhwIjoxNzQ4NTk3MTI0fQ.TuPCrHegVl6-K7M07fnhk0GEGV7FO79Oiw838tm2QR0"}
+
+11:25:24.922 [main]  DEBUG com.intuit.karate - request:
+3 > GET http://localhost:5000/api/users/profile
+3 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4Mzk2Yjc0OWE2YTBmZDM4NGNlZmYzMSIsImlhdCI6MTc0ODU5MzUyNCwiZXhwIjoxNzQ4NTk3MTI0fQ.TuPCrHegVl6-K7M07fnhk0GEGV7FO79Oiw838tm2QR0
+3 > Host: localhost:5000
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+3 > Accept-Encoding: gzip,deflate
+
+
+11:25:24.927 [main]  DEBUG com.intuit.karate - response time in milliseconds: 4
+3 < 500
+3 < X-Powered-By: Express
+3 < Access-Control-Allow-Origin: http://localhost:3000
+3 < Vary: Origin
+3 < Content-Type: application/json; charset=utf-8
+3 < Content-Length: 49
+3 < ETag: W/"31-y1L18C12XHDbvPedikhgQ5lcCFc"
+3 < Date: Fri, 30 May 2025 08:25:24 GMT
+3 < Connection: keep-alive
+3 < Keep-Alive: timeout=5
+{"success":false,"message":"Error fetching user"}
+
+11:25:24.937 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:105
+Then status 200
+status code was: 500, expected: 200, response time in milliseconds: 4, url: http://localhost:5000/api/users/profile, response: 
+{"success":false,"message":"Error fetching user"}
+tests/features/auth/register.feature:105
+11:25:25.438 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) tests/features/auth/register.feature
+11:40:03.399 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+11:40:03.643 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748594403641
+11:40:04.339 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:40:04.349 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:40:04.387 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:40:04.388 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+11:40:04.658 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"testul3"}
+
+11:40:04.753 [main]  DEBUG com.intuit.karate - response time in milliseconds: 92
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 198
+1 < ETag: W/"c6-pJpc2Y0BTPjqLZURq0bS7aRZLuc"
+1 < Date: Fri, 30 May 2025 08:40:04 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWQ4Y2I3Y2JhOTI5YjJjZjM3Njg0NSIsImlhdCI6MTc0ODU5NDQwNCwiZXhwIjoxNzQ4NTk4MDA0fQ.0Mq1pzmKzNN3IPyiQWdAUVD_hsRv3xN_fIV__vQHyTI"}
+
+11:40:04.780 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:40:04.783 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:40:04.790 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:40:04.791 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+11:40:04.794 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"invalid@email.com","password":"SomePassword123!"}
+
+11:40:04.801 [main]  DEBUG com.intuit.karate - response time in milliseconds: 5
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < ETag: W/"2c-EAnCIFy1uGovyo/FU6KYwnjLgrc"
+1 < Date: Fri, 30 May 2025 08:40:04 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"User not found"}
+
+11:40:04.807 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:40:04.808 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:40:04.814 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:40:04.815 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+11:40:04.819 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 57
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"WrongPassword123!"}
+
+11:40:04.886 [main]  DEBUG com.intuit.karate - response time in milliseconds: 67
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 49
+1 < ETag: W/"31-VmptvJVCxgMiCaKMQdd9IkNBIdc"
+1 < Date: Fri, 30 May 2025 08:40:04 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"Invalid credentials"}
+
+11:40:04.891 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:40:04.893 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:40:04.900 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:40:04.901 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+11:40:04.903 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 22
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"password":"testul3"}
+
+11:40:04.907 [main]  DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < ETag: W/"2c-EAnCIFy1uGovyo/FU6KYwnjLgrc"
+1 < Date: Fri, 30 May 2025 08:40:04 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"User not found"}
+
+11:40:04.918 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+11:40:04.920 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+11:40:04.923 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+11:40:04.924 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+11:40:04.926 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com"}
+
+11:40:04.931 [main]  DEBUG com.intuit.karate - response time in milliseconds: 5
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 89
+1 < ETag: W/"59-mxXTXgw0w46jZrL26Y+Rz5u80sc"
+1 < Date: Fri, 30 May 2025 08:40:04 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"Login failed","error":"Illegal arguments: undefined, string"}
+
+11:40:05.475 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) tests/features/auth/login.feature
+12:19:10.056 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+12:19:10.318 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748596750315
+12:19:11.113 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:19:11.127 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+12:19:11.171 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:19:11.173 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+12:19:11.545 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"testul3"}
+
+12:19:11.668 [main]  DEBUG com.intuit.karate - response time in milliseconds: 121
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 198
+1 < ETag: W/"c6-YQAE33jTixIiEcRhH82+fqo02CU"
+1 < Date: Fri, 30 May 2025 09:19:11 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWQ4Y2I3Y2JhOTI5YjJjZjM3Njg0NSIsImlhdCI6MTc0ODU5Njc1MSwiZXhwIjoxNzQ4NjAwMzUxfQ.TWIjeg5T8AU7BKVm5rOQWSaeR3rkvQo4FYJ4RG_80q0"}
+
+12:19:11.696 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:19:11.698 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+12:19:11.704 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:19:11.705 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+12:19:11.707 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"invalid@email.com","password":"SomePassword123!"}
+
+12:19:11.710 [main]  DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < ETag: W/"2c-EAnCIFy1uGovyo/FU6KYwnjLgrc"
+1 < Date: Fri, 30 May 2025 09:19:11 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"User not found"}
+
+12:19:11.716 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:19:11.718 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+12:19:11.721 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:19:11.722 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+12:19:11.725 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 57
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"WrongPassword123!"}
+
+12:19:11.799 [main]  DEBUG com.intuit.karate - response time in milliseconds: 74
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 49
+1 < ETag: W/"31-VmptvJVCxgMiCaKMQdd9IkNBIdc"
+1 < Date: Fri, 30 May 2025 09:19:11 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"Invalid credentials"}
+
+12:19:11.804 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:19:11.806 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+12:19:11.810 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:19:11.811 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+12:19:11.814 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 22
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"password":"testul3"}
+
+12:19:11.818 [main]  DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < ETag: W/"2c-EAnCIFy1uGovyo/FU6KYwnjLgrc"
+1 < Date: Fri, 30 May 2025 09:19:11 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"User not found"}
+
+12:19:11.828 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:19:11.831 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+12:19:11.838 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:19:11.840 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+12:19:11.843 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com"}
+
+12:19:11.849 [main]  DEBUG com.intuit.karate - response time in milliseconds: 6
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 89
+1 < ETag: W/"59-mxXTXgw0w46jZrL26Y+Rz5u80sc"
+1 < Date: Fri, 30 May 2025 09:19:11 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"Login failed","error":"Illegal arguments: undefined, string"}
+
+12:19:12.509 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) tests/features/auth/login.feature
+12:20:17.534 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+12:20:17.828 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748596817822
+12:20:18.639 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:20:18.652 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+12:20:18.694 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:20:18.696 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+12:20:19.031 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"testul3"}
+
+12:20:19.125 [main]  DEBUG com.intuit.karate - response time in milliseconds: 92
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 198
+1 < ETag: W/"c6-uFJcMWsbkKLIiQ2Qgm6bSkCnHsE"
+1 < Date: Fri, 30 May 2025 09:20:19 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWQ4Y2I3Y2JhOTI5YjJjZjM3Njg0NSIsImlhdCI6MTc0ODU5NjgxOSwiZXhwIjoxNzQ4NjAwNDE5fQ.jqqYA88rBE5cP7AwVR_Erg1Ih8TRXIZuwZUtZW3v1T0"}
+
+12:20:19.146 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:20:19.149 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+12:20:19.154 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:20:19.155 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+12:20:19.157 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 51
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"invalid@mail.com","password":"parola123"}
+
+12:20:19.160 [main]  DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < ETag: W/"2c-EAnCIFy1uGovyo/FU6KYwnjLgrc"
+1 < Date: Fri, 30 May 2025 09:20:19 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"User not found"}
+
+12:20:19.168 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:20:19.169 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+12:20:19.172 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:20:19.173 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+12:20:19.176 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 56
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"WrongPassword123"}
+
+12:20:19.245 [main]  DEBUG com.intuit.karate - response time in milliseconds: 69
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 49
+1 < ETag: W/"31-VmptvJVCxgMiCaKMQdd9IkNBIdc"
+1 < Date: Fri, 30 May 2025 09:20:19 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"Invalid credentials"}
+
+12:20:19.252 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:20:19.253 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+12:20:19.256 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:20:19.257 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+12:20:19.259 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 22
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"password":"testul3"}
+
+12:20:19.264 [main]  DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < ETag: W/"2c-EAnCIFy1uGovyo/FU6KYwnjLgrc"
+1 < Date: Fri, 30 May 2025 09:20:19 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"User not found"}
+
+12:20:19.274 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:20:19.276 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+12:20:19.280 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:20:19.280 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+12:20:19.283 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com"}
+
+12:20:19.288 [main]  DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 89
+1 < ETag: W/"59-mxXTXgw0w46jZrL26Y+Rz5u80sc"
+1 < Date: Fri, 30 May 2025 09:20:19 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"Login failed","error":"Illegal arguments: undefined, string"}
+
+12:20:19.984 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) tests/features/auth/login.feature
+12:26:58.364 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+12:26:58.722 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748597218720
+12:26:59.569 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:26:59.590 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:26:59.935 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/register
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 95
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test1748597219601@mail.com","password":"Password123!","username":"user1748597219611"}
+
+12:27:00.044 [main]  DEBUG com.intuit.karate - response time in milliseconds: 107
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 57
+1 < ETag: W/"39-L4ChN3EFRYuIiTpWUtpbvMTfrpg"
+1 < Date: Fri, 30 May 2025 09:27:00 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":true,"message":"User registered successfully"}
+
+12:27:00.079 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:19
+And match response == { success: true, message: 'User registered successfully', token: '#string' }
+match failed: EQUALS
+  $ | not equal | actual does not contain key - 'token' (MAP:MAP)
+  {"success":true,"message":"User registered successfully"}
+  {"success":true,"message":"User registered successfully","token":"#string"}
+
+
+tests/features/auth/register.feature:19
+12:27:00.098 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:27:00.106 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:27:00.112 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/register
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 83
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"Password123!","username":"user1748597220109"}
+
+12:27:00.118 [main]  DEBUG com.intuit.karate - response time in milliseconds: 5
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 54
+1 < ETag: W/"36-EAvnEptumId5e9Qhf9lo558Zs8E"
+1 < Date: Fri, 30 May 2025 09:27:00 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"Email already registered"}
+
+12:27:00.133 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:27:00.137 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:27:00.142 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/register
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 86
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test1748597220139@mail.com","password":"123","username":"user1748597220140"}
+
+12:27:00.214 [main]  DEBUG com.intuit.karate - response time in milliseconds: 72
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 57
+1 < ETag: W/"39-L4ChN3EFRYuIiTpWUtpbvMTfrpg"
+1 < Date: Fri, 30 May 2025 09:27:00 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":true,"message":"User registered successfully"}
+
+12:27:00.218 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:34
+And match response.success == false
+match failed: EQUALS
+  $ | not equal (BOOLEAN:BOOLEAN)
+  true
+  false
+
+tests/features/auth/register.feature:34
+12:27:00.224 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:27:00.228 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:27:00.231 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/register
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"password":"Password123!","username":"user1748597220229"}
+
+12:27:00.235 [main]  DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < ETag: W/"32-8YdCYCz3H5jPwyZpUXF4T7OSIgo"
+1 < Date: Fri, 30 May 2025 09:27:00 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"Invalid email format"}
+
+12:27:00.242 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:27:00.245 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:27:00.250 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/register
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 69
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test1748597220247@mail.com","username":"user1748597220247"}
+
+12:27:00.260 [main]  DEBUG com.intuit.karate - response time in milliseconds: 9
+1 < 500
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 49
+1 < ETag: W/"31-McDBs3fA5MHJ4a9XkZ1YCRA63Iw"
+1 < Date: Fri, 30 May 2025 09:27:00 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"Registration failed"}
+
+12:27:00.279 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:47
+Then status 200
+status code was: 500, expected: 200, response time in milliseconds: 9, url: http://localhost:5000/api/users/register, response: 
+{"success":false,"message":"Registration failed"}
+tests/features/auth/register.feature:47
+12:27:00.287 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:27:00.290 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:27:00.295 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/register
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 64
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test1748597220292@mail.com","password":"Password123!"}
+
+12:27:00.394 [main]  DEBUG com.intuit.karate - response time in milliseconds: 98
+1 < 500
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 49
+1 < ETag: W/"31-McDBs3fA5MHJ4a9XkZ1YCRA63Iw"
+1 < Date: Fri, 30 May 2025 09:27:00 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"Registration failed"}
+
+12:27:00.395 [main]  ERROR com.intuit.karate - tests/features/auth/register.feature:54
+Then status 200
+status code was: 500, expected: 200, response time in milliseconds: 98, url: http://localhost:5000/api/users/register, response: 
+{"success":false,"message":"Registration failed"}
+tests/features/auth/register.feature:54
+12:27:01.051 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) tests/features/auth/register.feature
+12:28:38.872 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+12:28:59.822 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+12:29:00.094 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748597340091
+12:29:00.906 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:29:00.961 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:29:01.311 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"testul3"}
+
+12:29:01.428 [main]  DEBUG com.intuit.karate - response time in milliseconds: 115
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 198
+1 < ETag: W/"c6-ZvyP0dg6ZyxnBfUk7E3xedK6rdc"
+1 < Date: Fri, 30 May 2025 09:29:01 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWQ4Y2I3Y2JhOTI5YjJjZjM3Njg0NSIsImlhdCI6MTc0ODU5NzM0MSwiZXhwIjoxNzQ4NjAwOTQxfQ.-liRhioNLHdyjjHKlbvJ3p-jGqzdAwDqw4L4aKdLaIg"}
+
+12:29:01.451 [main]  DEBUG com.intuit.karate - request:
+2 > POST http://localhost:5000/api/execute-code
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWQ4Y2I3Y2JhOTI5YjJjZjM3Njg0NSIsImlhdCI6MTc0ODU5NzM0MSwiZXhwIjoxNzQ4NjAwOTQxfQ.-liRhioNLHdyjjHKlbvJ3p-jGqzdAwDqw4L4aKdLaIg
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 118
+2 > Host: localhost:5000
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+2 > Accept-Encoding: gzip,deflate
+{"code":"public class Main { public static void main(String[] args) { System.out.println(\"Hello, JavaVerse!\"); } }"}
+
+12:29:03.317 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1865
+2 < 200
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: http://localhost:3000
+2 < Vary: Origin
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 94
+2 < ETag: W/"5e-+QHgjaidj9uB2EhuTW57z0bRAxg"
+2 < Date: Fri, 30 May 2025 09:29:03 GMT
+2 < Connection: keep-alive
+2 < Keep-Alive: timeout=5
+{"success":true,"output":"Hello, JavaVerse!","cpuTime":null,"memory":"28160","statusCode":200}
+
+12:29:03.332 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:29:03.339 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:29:03.341 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"testul3"}
+
+12:29:03.413 [main]  DEBUG com.intuit.karate - response time in milliseconds: 71
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 198
+1 < ETag: W/"c6-+PAPjILkL7ehSQtPLQRcRofPWMs"
+1 < Date: Fri, 30 May 2025 09:29:03 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWQ4Y2I3Y2JhOTI5YjJjZjM3Njg0NSIsImlhdCI6MTc0ODU5NzM0MywiZXhwIjoxNzQ4NjAwOTQzfQ.ThsUQhY3PDcCqYoBgmRgkhB4WUyQuai61F1QKidFNts"}
+
+12:29:03.416 [main]  DEBUG com.intuit.karate - request:
+2 > POST http://localhost:5000/api/execute-code
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWQ4Y2I3Y2JhOTI5YjJjZjM3Njg0NSIsImlhdCI6MTc0ODU5NzM0MywiZXhwIjoxNzQ4NjAwOTQzfQ.ThsUQhY3PDcCqYoBgmRgkhB4WUyQuai61F1QKidFNts
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 117
+2 > Host: localhost:5000
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+2 > Accept-Encoding: gzip,deflate
+{"code":"public class Main { public static void main(String[] args) { System.out.println(\"Missing semicolon\") } }"}
+
+12:29:05.261 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1843
+2 < 200
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: http://localhost:3000
+2 < Vary: Origin
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 327
+2 < ETag: W/"147-WrZBCK9FyCHIU3PfbkqajDO2OQE"
+2 < Date: Fri, 30 May 2025 09:29:05 GMT
+2 < Connection: keep-alive
+2 < Keep-Alive: timeout=5
+{"success":true,"output":"/Main.java:1: error: ';' expected\npublic class Main { public static void main(String[] args) { System.out.println(\"Missing semicolon\") } }\n                                                                                                    ^\n1 error","cpuTime":null,"memory":null,"statusCode":200}
+
+12:29:05.270 [main]  ERROR com.intuit.karate - tests/features/code/execution.feature:37
+And match response.success == false
+match failed: EQUALS
+  $ | not equal (BOOLEAN:BOOLEAN)
+  true
+  false
+
+tests/features/code/execution.feature:37
+12:29:05.284 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:29:05.292 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:29:05.294 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"testul3"}
+
+12:29:05.368 [main]  DEBUG com.intuit.karate - response time in milliseconds: 74
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 198
+1 < ETag: W/"c6-kH7nT+uxc98v3bnLf0jZxK28E9I"
+1 < Date: Fri, 30 May 2025 09:29:05 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWQ4Y2I3Y2JhOTI5YjJjZjM3Njg0NSIsImlhdCI6MTc0ODU5NzM0NSwiZXhwIjoxNzQ4NjAwOTQ1fQ.9ddY_4LWU5S2oudJyaXlSXgQ98nhwva0P4Yw1pAnzKw"}
+
+12:29:05.372 [main]  DEBUG com.intuit.karate - request:
+2 > POST http://localhost:5000/api/execute-code
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 107
+2 > Host: localhost:5000
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+2 > Accept-Encoding: gzip,deflate
+{"code":"public class Main { public static void main(String[] args) { System.out.println(\"Hello!\"); } }"}
+
+12:29:05.374 [main]  DEBUG com.intuit.karate - response time in milliseconds: 2
+2 < 401
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: http://localhost:3000
+2 < Vary: Origin
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 68
+2 < ETag: W/"44-jjYy7ZkcSFht7eOkce6JepbhkN8"
+2 < Date: Fri, 30 May 2025 09:29:05 GMT
+2 < Connection: keep-alive
+2 < Keep-Alive: timeout=5
+{"success":false,"message":"Acces neautorizat. Token-ul lipsește."}
+
+12:29:05.387 [main]  ERROR com.intuit.karate - tests/features/code/execution.feature:44
+Then status 200
+status code was: 401, expected: 200, response time in milliseconds: 2, url: http://localhost:5000/api/execute-code, response: 
+{"success":false,"message":"Acces neautorizat. Token-ul lipsește."}
+tests/features/code/execution.feature:44
+12:29:05.392 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:29:05.397 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:29:05.399 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"testul3"}
+
+12:29:05.474 [main]  DEBUG com.intuit.karate - response time in milliseconds: 75
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 198
+1 < ETag: W/"c6-kH7nT+uxc98v3bnLf0jZxK28E9I"
+1 < Date: Fri, 30 May 2025 09:29:05 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWQ4Y2I3Y2JhOTI5YjJjZjM3Njg0NSIsImlhdCI6MTc0ODU5NzM0NSwiZXhwIjoxNzQ4NjAwOTQ1fQ.9ddY_4LWU5S2oudJyaXlSXgQ98nhwva0P4Yw1pAnzKw"}
+
+12:29:05.478 [main]  DEBUG com.intuit.karate - request:
+2 > POST http://localhost:5000/api/execute-code
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWQ4Y2I3Y2JhOTI5YjJjZjM3Njg0NSIsImlhdCI6MTc0ODU5NzM0NSwiZXhwIjoxNzQ4NjAwOTQ1fQ.9ddY_4LWU5S2oudJyaXlSXgQ98nhwva0P4Yw1pAnzKw
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 11
+2 > Host: localhost:5000
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+2 > Accept-Encoding: gzip,deflate
+{"code":""}
+
+12:29:05.481 [main]  DEBUG com.intuit.karate - response time in milliseconds: 2
+2 < 400
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: http://localhost:3000
+2 < Vary: Origin
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 76
+2 < ETag: W/"4c-aoC8PGK7FAa56A+jrOzX+sxgGhk"
+2 < Date: Fri, 30 May 2025 09:29:05 GMT
+2 < Connection: keep-alive
+2 < Keep-Alive: timeout=5
+{"success":false,"error":"Codul lipsește sau este într-un format invalid"}
+
+12:29:05.483 [main]  ERROR com.intuit.karate - tests/features/code/execution.feature:52
+Then status 200
+status code was: 400, expected: 200, response time in milliseconds: 2, url: http://localhost:5000/api/execute-code, response: 
+{"success":false,"error":"Codul lipsește sau este într-un format invalid"}
+tests/features/code/execution.feature:52
+12:29:06.224 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) tests/features/code/execution.feature
+12:29:41.518 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+12:29:41.796 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748597381793
+12:29:42.745 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:29:42.792 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:29:43.160 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"testul3"}
+
+12:29:43.274 [main]  DEBUG com.intuit.karate - response time in milliseconds: 111
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 198
+1 < ETag: W/"c6-gT7pu8Re4QbnjUvPFDRQeiNlVL8"
+1 < Date: Fri, 30 May 2025 09:29:43 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWQ4Y2I3Y2JhOTI5YjJjZjM3Njg0NSIsImlhdCI6MTc0ODU5NzM4MywiZXhwIjoxNzQ4NjAwOTgzfQ.2kYvrm_2B2YKnabIUiZFjX01la5i96yO6ETLXIrwNz8"}
+
+12:29:43.321 [main]  DEBUG com.intuit.karate - request:
+2 > POST http://localhost:5000/api/analyze-code
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWQ4Y2I3Y2JhOTI5YjJjZjM3Njg0NSIsImlhdCI6MTc0ODU5NzM4MywiZXhwIjoxNzQ4NjAwOTgzfQ.2kYvrm_2B2YKnabIUiZFjX01la5i96yO6ETLXIrwNz8
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 114
+2 > Host: localhost:5000
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+2 > Accept-Encoding: gzip,deflate
+{"code":"public class Main { public static void main(String[] args) { System.out.println(\"Hello, World!\"); } }"}
+
+12:29:46.943 [main]  DEBUG com.intuit.karate - response time in milliseconds: 3620
+2 < 200
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: http://localhost:3000
+2 < Vary: Origin
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 1577
+2 < ETag: W/"629-TUQwnm+ZNvUuVg/P77ijvUFZ540"
+2 < Date: Fri, 30 May 2025 09:29:46 GMT
+2 < Connection: keep-alive
+2 < Keep-Alive: timeout=5
+{"success":true,"feedback":"### Feedback cod Java:\n\n- Puncte forte:\n  - Codul este simplu și ușor de înțeles.\n  - Respectă convențiile de numire a claselor și metodelor.\n\n- Probleme:\n  1. Lipsa indentării: Ar fi bine să îți indentezi codul pentru a-l face mai ușor de citit.\n  2. Convenții de formatare: Este recomandat să folosești acoladele pe mai multe linii pentru o mai bună lizibilitate.\n  3. Clasa `Main` conține metoda `main` care afișează un mesaj simplu. Este o implementare corectă pentru un program de \"Hello, World\", dar pentru aplicații mai complexe vei avea nevoie de mai multă logică.\n\n- Sfaturi de îmbunătățire:\n  - Adaugă comentarii pentru a explica ce face fiecare parte a codului.\n  - Folosește indentarea corectă pentru a evidenția structura logică a codului.\n  - Poți adăuga mai multă funcționalitate pentru a-ți extinde programul.\n  - Organizează codul în clase și metode separate pentru a păstra o structură modulară.\n\n### Bune practici:\n- Indentează corect codul pentru a-l face mai ușor de citit.\n- Folosește acoladele pe mai multe linii pentru o formatare mai clară.\n- Comentează codul pentru a explica logică din spatele acestuia.\n- Încearcă să separi funcționalitatea în clase și metode distincte pentru a menține o structură organizată.\n\nÎn general, codul tău este corect pentru un program simplu \"Hello, World\", dar poți îmbunătăți structura și organizarea lui. Continuă să practici și să îți dezvolți abilitățile de programare în Java! 👍"}
+
+12:29:46.961 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:29:46.969 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:29:46.971 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"testul3"}
+
+12:29:47.047 [main]  DEBUG com.intuit.karate - response time in milliseconds: 76
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 198
+1 < ETag: W/"c6-9wVje+569d3yshsLxqw3D2RD+fI"
+1 < Date: Fri, 30 May 2025 09:29:47 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWQ4Y2I3Y2JhOTI5YjJjZjM3Njg0NSIsImlhdCI6MTc0ODU5NzM4NywiZXhwIjoxNzQ4NjAwOTg3fQ.ueTkAea34orSnkj3UNietk49OAt3ox-8dcw_Yw7sJOM"}
+
+12:29:47.050 [main]  DEBUG com.intuit.karate - request:
+2 > POST http://localhost:5000/api/analyze-code
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWQ4Y2I3Y2JhOTI5YjJjZjM3Njg0NSIsImlhdCI6MTc0ODU5NzM4NywiZXhwIjoxNzQ4NjAwOTg3fQ.ueTkAea34orSnkj3UNietk49OAt3ox-8dcw_Yw7sJOM
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 106
+2 > Host: localhost:5000
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+2 > Accept-Encoding: gzip,deflate
+{"code":"public class main { public static void main(string[] args) { system.out.println(\"hello\"); } }"}
+
+12:29:50.242 [main]  DEBUG com.intuit.karate - response time in milliseconds: 3190
+2 < 200
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: http://localhost:3000
+2 < Vary: Origin
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 1284
+2 < ETag: W/"504-L7aP5ZNVRr6Tht9wyRRN+rPAzOA"
+2 < Date: Fri, 30 May 2025 09:29:50 GMT
+2 < Connection: keep-alive
+2 < Keep-Alive: timeout=5
+{"success":true,"feedback":"### Feedback cod Java:\n\n1. Numele clasei ar trebui să înceapă cu literă mare conform convențiilor de denumire în Java. Este recomandat să redenumești clasa din `main` în `Main`.\n  \n2. Metoda `main` trebuie să aibă litera 'S' mare în `String[] args`, altfel nu va fi recunoscută ca metoda principală a aplicației.\n\n3. Metoda `main` trebuie să aibă litera 'S' mare în `System.out.println(\"hello\");` pentru a corespunde clasei `System`. De asemenea, litera mică 's' din `system.out.println(\"hello\");` trebuie să fie schimbată în 'S' pentru a corespunde clasei `System`.\n\n4. Îți lipsește importul clasei `System`. Este necesar să adaugi `import java.lang.System;` la începutul fișierului pentru a folosi clasa `System`.\n\n### Sugestii de îmbunătățire:\n\n```java\nimport java.lang.System;\n\npublic class Main {\n    public static void main(String[] args) {\n        System.out.println(\"hello\");\n    }\n}\n```\n\n### Bune practici:\n- Respectarea convențiilor de denumire a claselor și a metodelor.\n- Utilizarea literelor mari și mici conform specificațiilor Java.\n- Importul corect al claselor necesare pentru funcționalitatea codului.\n- Formatarea codului pentru a fi ușor de citit și de înțeles."}
+
+12:29:50.257 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:29:50.266 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:29:50.270 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"testul3"}
+
+12:29:50.463 [main]  DEBUG com.intuit.karate - response time in milliseconds: 192
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 198
+1 < ETag: W/"c6-XWXKYcSH8PYeHS7V0StKx3aPnnI"
+1 < Date: Fri, 30 May 2025 09:29:50 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWQ4Y2I3Y2JhOTI5YjJjZjM3Njg0NSIsImlhdCI6MTc0ODU5NzM5MCwiZXhwIjoxNzQ4NjAwOTkwfQ.B3CRkCax8eu6oT78tXUa_oxKxMPir4R4YqUmQQEEiUA"}
+
+12:29:50.469 [main]  DEBUG com.intuit.karate - request:
+2 > POST http://localhost:5000/api/analyze-code
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 107
+2 > Host: localhost:5000
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+2 > Accept-Encoding: gzip,deflate
+{"code":"public class Main { public static void main(String[] args) { System.out.println(\"Hello!\"); } }"}
+
+12:29:50.475 [main]  DEBUG com.intuit.karate - response time in milliseconds: 5
+2 < 401
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: http://localhost:3000
+2 < Vary: Origin
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 68
+2 < ETag: W/"44-jjYy7ZkcSFht7eOkce6JepbhkN8"
+2 < Date: Fri, 30 May 2025 09:29:50 GMT
+2 < Connection: keep-alive
+2 < Keep-Alive: timeout=5
+{"success":false,"message":"Acces neautorizat. Token-ul lipsește."}
+
+12:29:50.501 [main]  ERROR com.intuit.karate - tests/features/code/analysis.feature:44
+Then status 200
+status code was: 401, expected: 200, response time in milliseconds: 5, url: http://localhost:5000/api/analyze-code, response: 
+{"success":false,"message":"Acces neautorizat. Token-ul lipsește."}
+tests/features/code/analysis.feature:44
+12:29:50.518 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:29:50.525 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:29:50.529 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"testul3"}
+
+12:29:50.721 [main]  DEBUG com.intuit.karate - response time in milliseconds: 191
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 198
+1 < ETag: W/"c6-XWXKYcSH8PYeHS7V0StKx3aPnnI"
+1 < Date: Fri, 30 May 2025 09:29:50 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWQ4Y2I3Y2JhOTI5YjJjZjM3Njg0NSIsImlhdCI6MTc0ODU5NzM5MCwiZXhwIjoxNzQ4NjAwOTkwfQ.B3CRkCax8eu6oT78tXUa_oxKxMPir4R4YqUmQQEEiUA"}
+
+12:29:50.727 [main]  DEBUG com.intuit.karate - request:
+2 > POST http://localhost:5000/api/analyze-code
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWQ4Y2I3Y2JhOTI5YjJjZjM3Njg0NSIsImlhdCI6MTc0ODU5NzM5MCwiZXhwIjoxNzQ4NjAwOTkwfQ.B3CRkCax8eu6oT78tXUa_oxKxMPir4R4YqUmQQEEiUA
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 11
+2 > Host: localhost:5000
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+2 > Accept-Encoding: gzip,deflate
+{"code":""}
+
+12:29:50.733 [main]  DEBUG com.intuit.karate - response time in milliseconds: 6
+2 < 400
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: http://localhost:3000
+2 < Vary: Origin
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 78
+2 < ETag: W/"4e-SCODm0YvzlndVhOxyqcGzFJe3S0"
+2 < Date: Fri, 30 May 2025 09:29:50 GMT
+2 < Connection: keep-alive
+2 < Keep-Alive: timeout=5
+{"success":false,"message":"Codul lipsește sau este într-un format invalid"}
+
+12:29:50.736 [main]  ERROR com.intuit.karate - tests/features/code/analysis.feature:52
+Then status 200
+status code was: 400, expected: 200, response time in milliseconds: 6, url: http://localhost:5000/api/analyze-code, response: 
+{"success":false,"message":"Codul lipsește sau este într-un format invalid"}
+tests/features/code/analysis.feature:52
+12:29:52.301 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) tests/features/code/analysis.feature
+12:30:16.631 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+12:30:16.923 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748597416917
+12:30:17.775 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:30:17.783 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+12:30:17.821 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:30:17.825 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+12:30:18.151 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"testul3"}
+
+12:30:18.272 [main]  DEBUG com.intuit.karate - response time in milliseconds: 118
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 198
+1 < ETag: W/"c6-5u/PYQWL5qnqC9Liz24jpfwRRJs"
+1 < Date: Fri, 30 May 2025 09:30:18 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWQ4Y2I3Y2JhOTI5YjJjZjM3Njg0NSIsImlhdCI6MTc0ODU5NzQxOCwiZXhwIjoxNzQ4NjAxMDE4fQ.xuv8hrD3xgstWzaWzKn1PQfvgRy_Qa606dM3PkQPAJA"}
+
+12:30:18.299 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:30:18.302 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+12:30:18.308 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:30:18.309 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+12:30:18.312 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 51
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"invalid@mail.com","password":"parola123"}
+
+12:30:18.315 [main]  DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < ETag: W/"2c-EAnCIFy1uGovyo/FU6KYwnjLgrc"
+1 < Date: Fri, 30 May 2025 09:30:18 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"User not found"}
+
+12:30:18.322 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:30:18.324 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+12:30:18.329 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:30:18.330 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+12:30:18.333 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 56
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"WrongPassword123"}
+
+12:30:18.405 [main]  DEBUG com.intuit.karate - response time in milliseconds: 72
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 49
+1 < ETag: W/"31-VmptvJVCxgMiCaKMQdd9IkNBIdc"
+1 < Date: Fri, 30 May 2025 09:30:18 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"Invalid credentials"}
+
+12:30:18.413 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:30:18.415 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+12:30:18.421 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:30:18.422 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+12:30:18.425 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 22
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"password":"testul3"}
+
+12:30:18.430 [main]  DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < ETag: W/"2c-EAnCIFy1uGovyo/FU6KYwnjLgrc"
+1 < Date: Fri, 30 May 2025 09:30:18 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"User not found"}
+
+12:30:18.442 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+12:30:18.446 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+12:30:18.453 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+12:30:18.454 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+12:30:18.456 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com"}
+
+12:30:18.462 [main]  DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 89
+1 < ETag: W/"59-mxXTXgw0w46jZrL26Y+Rz5u80sc"
+1 < Date: Fri, 30 May 2025 09:30:18 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"Login failed","error":"Illegal arguments: undefined, string"}
+
+12:30:19.177 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) tests/features/auth/login.feature
+13:32:15.134 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+13:32:15.463 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748601135461
+13:32:16.423 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+13:32:16.434 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+13:32:16.481 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+13:32:16.483 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+13:32:16.908 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"testul3"}
+
+13:32:17.038 [main]  DEBUG com.intuit.karate - response time in milliseconds: 126
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 198
+1 < ETag: W/"c6-t/SRDl7PtjYxFPJEVdv5xvo+REw"
+1 < Date: Fri, 30 May 2025 10:32:17 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWQ4Y2I3Y2JhOTI5YjJjZjM3Njg0NSIsImlhdCI6MTc0ODYwMTEzNywiZXhwIjoxNzQ4NjA0NzM3fQ.c2czznlOLPzGc3ozmXf9fJE9aAwzQltHTWMlSP6_wxs"}
+
+13:32:17.071 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+13:32:17.074 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+13:32:17.082 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+13:32:17.083 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+13:32:17.085 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 51
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"invalid@mail.com","password":"parola123"}
+
+13:32:17.089 [main]  DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < ETag: W/"2c-EAnCIFy1uGovyo/FU6KYwnjLgrc"
+1 < Date: Fri, 30 May 2025 10:32:17 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"User not found"}
+
+13:32:17.096 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+13:32:17.098 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+13:32:17.101 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+13:32:17.102 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+13:32:17.104 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 56
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"WrongPassword123"}
+
+13:32:17.178 [main]  DEBUG com.intuit.karate - response time in milliseconds: 73
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 49
+1 < ETag: W/"31-VmptvJVCxgMiCaKMQdd9IkNBIdc"
+1 < Date: Fri, 30 May 2025 10:32:17 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"Invalid credentials"}
+
+13:32:17.186 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+13:32:17.186 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+13:32:17.189 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+13:32:17.192 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+13:32:17.195 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 22
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"password":"testul3"}
+
+13:32:17.200 [main]  DEBUG com.intuit.karate - response time in milliseconds: 5
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < ETag: W/"2c-EAnCIFy1uGovyo/FU6KYwnjLgrc"
+1 < Date: Fri, 30 May 2025 10:32:17 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"User not found"}
+
+13:32:17.208 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+13:32:17.211 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+13:32:17.217 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+13:32:17.217 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+13:32:17.219 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com"}
+
+13:32:17.225 [main]  DEBUG com.intuit.karate - response time in milliseconds: 6
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 89
+1 < ETag: W/"59-mxXTXgw0w46jZrL26Y+Rz5u80sc"
+1 < Date: Fri, 30 May 2025 10:32:17 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"Login failed","error":"Illegal arguments: undefined, string"}
+
+13:32:17.951 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) tests/features/auth/login.feature
+15:26:37.919 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+15:26:38.252 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748607998249
+15:26:38.997 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+15:26:39.014 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+15:26:39.055 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+15:26:39.058 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+15:26:39.434 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"testul3"}
+
+15:26:39.549 [main]  DEBUG com.intuit.karate - response time in milliseconds: 112
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 198
+1 < ETag: W/"c6-MWkpr/gqs+JbCp7nNmt1wOQVKKs"
+1 < Date: Fri, 30 May 2025 12:26:39 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWQ4Y2I3Y2JhOTI5YjJjZjM3Njg0NSIsImlhdCI6MTc0ODYwNzk5OSwiZXhwIjoxNzQ4NjExNTk5fQ.ia8RYkxSw1SfzPhi5c1KXcIz9ljn9PCYP45PgNbIQUA"}
+
+15:26:39.580 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+15:26:39.583 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+15:26:39.592 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+15:26:39.594 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+15:26:39.597 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 51
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"invalid@mail.com","password":"parola123"}
+
+15:26:39.601 [main]  DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < ETag: W/"2c-EAnCIFy1uGovyo/FU6KYwnjLgrc"
+1 < Date: Fri, 30 May 2025 12:26:39 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"User not found"}
+
+15:26:39.612 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+15:26:39.613 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+15:26:39.618 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+15:26:39.619 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+15:26:39.622 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 56
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com","password":"WrongPassword123"}
+
+15:26:39.704 [main]  DEBUG com.intuit.karate - response time in milliseconds: 82
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 49
+1 < ETag: W/"31-VmptvJVCxgMiCaKMQdd9IkNBIdc"
+1 < Date: Fri, 30 May 2025 12:26:39 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"Invalid credentials"}
+
+15:26:39.711 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+15:26:39.713 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+15:26:39.718 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+15:26:39.718 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+15:26:39.721 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 22
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"password":"testul3"}
+
+15:26:39.727 [main]  DEBUG com.intuit.karate - response time in milliseconds: 6
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 44
+1 < ETag: W/"2c-EAnCIFy1uGovyo/FU6KYwnjLgrc"
+1 < Date: Fri, 30 May 2025 12:26:39 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"User not found"}
+
+15:26:39.743 [main]  INFO  com.intuit.karate - [print] Available variables: NOT_FOUND 
+15:26:39.748 [main]  INFO  com.intuit.karate - [print] Test users: NOT_FOUND 
+15:26:39.753 [main]  INFO  com.intuit.karate - [print] Using baseUrl: http://localhost:5000/api 
+15:26:39.754 [main]  INFO  com.intuit.karate - [print] Using testUser: {
+  "email": "test3@mail.com",
+  "password": "testul3",
+  "username": "test5"
+}
+ 
+15:26:39.756 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://localhost:5000/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: localhost:5000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"email":"test3@mail.com"}
+
+15:26:39.761 [main]  DEBUG com.intuit.karate - response time in milliseconds: 5
+1 < 200
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: http://localhost:3000
+1 < Vary: Origin
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 89
+1 < ETag: W/"59-mxXTXgw0w46jZrL26Y+Rz5u80sc"
+1 < Date: Fri, 30 May 2025 12:26:39 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"success":false,"message":"Login failed","error":"Illegal arguments: undefined, string"}
+
+15:26:40.469 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) tests/features/auth/login.feature

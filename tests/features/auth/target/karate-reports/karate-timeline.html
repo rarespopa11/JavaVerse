@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"login[1:10]","start":1748590751441,"end":1748590751515,"title":"login[1:10] 10:39:11.441-10:39:11.515 Successful login with valid credentials","className":"failed"},{"id":2,"group":1,"content":"login[2:18]","start":1748590751523,"end":1748590751523,"title":"login[2:18] 10:39:11.523-10:39:11.523 Failed login with invalid email","className":"failed"},{"id":3,"group":1,"content":"login[3:25]","start":1748590751530,"end":1748590751532,"title":"login[3:25] 10:39:11.530-10:39:11.532 Failed login with invalid password","className":"failed"},{"id":4,"group":1,"content":"login[4:32]","start":1748590751537,"end":1748590751538,"title":"login[4:32] 10:39:11.537-10:39:11.538 Failed login with missing email","className":"failed"},{"id":5,"group":1,"content":"login[5:39]","start":1748590751542,"end":1748590751543,"title":"login[5:39] 10:39:11.542-10:39:11.543 Failed login with missing password","className":"failed"},{"id":6,"group":1,"content":"login[6:46]","start":1748590751551,"end":1748590751553,"title":"login[6:46] 10:39:11.551-10:39:11.553 Login and verify token expiration","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

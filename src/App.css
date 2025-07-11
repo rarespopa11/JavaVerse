@@ -1,0 +1,854 @@
+/* Resetare generală */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: white;
+  background-color: #1e1e3f;  /* Fundal închis, tematic cosmic */
+}
+
+/* Containerul principal al aplicației */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Asigurăm că aplicația ocupă întreaga înălțime a ecranului */
+  overflow: visible; /* Permitem derularea paginii */
+  /* background-image: url('../src/assets/images/javaverse-background.png'); Aici punem link-ul imaginii pentru fundal */
+  background-size: cover; /* Asigurăm că imaginea acoperă întreaga pagină */
+  background-position: center center; /* Centram imaginea pe pagină */
+  background-repeat: no-repeat;
+}
+
+/* Conținutul principal - fără fundal colorat, doar textul și butonul vor fi plasate peste imagine */
+.body-content {
+  flex-grow: 1; /* Permitem secțiunii principale să ocupe tot spațiul disponibil */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 0; /* Spațiu pentru conținut */
+}
+
+/* Stil pentru textul din secțiunea principală */
+.main-banner {
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.7), 0 0 25px rgba(0, 255, 204, 1);
+}
+
+.main-banner p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.main-banner button {
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  background-color: #00ffcc;
+  color: white;
+  border: 2px solid #00ffcc;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  animation: pulse 1.5s infinite;
+}
+
+.main-banner button:hover {
+  background-color: #00bfae;
+  border-color: #00bfae;
+  transform: translateY(-2px);
+}
+
+/* Animatie de puls */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Footer - plasăm footer-ul la baza paginii */
+.footer {
+  background-color: #210535; /* Fundal mai închis pentru un contrast puternic */
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+}
+
+.footer-links a {
+  color: #c874b2; /* Roz pentru a adăuga contrast */
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 1.1rem; /* Mărim fontul pentru link-uri */
+  transition: color 0.3s ease, transform 0.3s ease; /* Efect de schimbare a culorii și animație la hover */
+}
+
+.footer-links a:hover {
+  color: #ff00ff; /* Culoare pentru hover pe link-uri */
+  text-decoration: underline;
+  transform: scale(1.1); /* Efect de zoom pe hover */
+}
+
+.footer p {
+  font-size: 1rem;
+  margin-top: 20px;
+  color: #00ffcc; /* Culoare verde pentru textul footer-ului */
+}
+
+/* Media Queries pentru mobil */
+@media (max-width: 768px) {
+  body {
+    padding: 0 10px;
+  }
+
+  .body-content {
+    height: auto; /* Permitem conținutului să se adapteze la ecranul mic */
+  }
+
+  .footer {
+    padding: 15px 20px; /* Reducem padding-ul pe mobil */
+  }
+
+  .footer-links a {
+    font-size: 1rem; /* Micșorăm dimensiunea fontului pe mobil */
+    margin: 0 10px;
+  }
+
+  .footer p {
+    font-size: 0.9rem; /* Ajustăm dimensiunea fontului pe mobil */
+  }
+}
+
+/* Stiluri pentru modul de accesibilitate */
+body.accessibility-mode {
+  font-size: 18px !important;
+  line-height: 1.6 !important;
+}
+
+body.accessibility-mode * {
+  cursor: default !important;
+}
+
+/* Stiluri pentru elementul cu focus în modul accesibilitate */
+.accessibility-focus {
+  outline: 3px solid #00ffcc !important;
+  outline-offset: 2px !important;
+  background-color: rgba(0, 255, 204, 0.1) !important;
+  box-shadow: 0 0 10px rgba(0, 255, 204, 0.5) !important;
+  border-radius: 4px !important;
+  position: relative !important;
+  z-index: 100 !important;
+}
+
+/* Stil pentru elementul care este citit în momentul curent */
+.accessibility-reading {
+  background-color: rgba(255, 255, 0, 0.3) !important;
+  animation: accessibility-pulse 2s infinite;
+}
+
+@keyframes accessibility-pulse {
+  0% { 
+    background-color: rgba(255, 255, 0, 0.3); 
+  }
+  50% { 
+    background-color: rgba(255, 255, 0, 0.5); 
+  }
+  100% { 
+    background-color: rgba(255, 255, 0, 0.3); 
+  }
+}
+
+/* Îmbunătățiri pentru focus-ul pe cardurile de cursuri */
+.course-card.accessibility-focus {
+  transform: translateY(-10px) !important;
+  border: 3px solid #00ffcc !important;
+  box-shadow: 
+    0 10px 30px rgba(0, 255, 204, 0.3) !important
+    0 0 20px rgba(0, 255, 204, 0.5) !important;
+}
+
+/* Îmbunătățiri pentru focus-ul pe opțiunile de quiz */
+.question-container li.accessibility-focus {
+  border: 3px solid #00ffcc !important;
+  background-color: rgba(0, 255, 204, 0.2) !important;
+  transform: translateX(10px) !important;
+}
+
+/* Îmbunătățiri pentru focus-ul pe butoane */
+button.accessibility-focus {
+  border: 3px solid #00ffcc !important;
+  box-shadow: 
+    0 0 15px rgba(0, 255, 204, 0.6) !important,
+    0 0 30px rgba(0, 255, 204, 0.3) !important;
+  transform: scale(1.05) !important;
+}
+
+/* Stiluri pentru instrucțiunile de accesibilitate (ascunse vizual) */
+.accessibility-instructions {
+  position: absolute !important;
+  left: -9999px !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  clip-path: inset(50%) !important;
+  white-space: nowrap !important;
+}
+
+/* Stiluri pentru indicatorul de accesibilitate */
+.accessibility-indicator {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: bold;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 2px solid #00ffcc;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.accessibility-indicator .status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #00ffcc;
+}
+
+.accessibility-indicator .status-dot.speaking {
+  background-color: #00ff00;
+  animation: pulse-dot 1s infinite;
+}
+
+@keyframes pulse-dot {
+  0% { 
+    opacity: 1; 
+    transform: scale(1); 
+  }
+  50% { 
+    opacity: 0.5; 
+    transform: scale(1.2); 
+  }
+  100% { 
+    opacity: 1; 
+    transform: scale(1); 
+  }
+}
+
+/* Îmbunătățiri pentru focus în editorul de cod */
+.code-editor-container.accessibility-mode {
+  border: 2px solid #00ffcc;
+}
+
+.code-editor-container.accessibility-mode .editor-wrapper {
+  border: 2px solid rgba(0, 255, 204, 0.3);
+}
+
+/* Îmbunătățiri pentru elementele de formular în modul accesibilitate */
+body.accessibility-mode input:focus,
+body.accessibility-mode textarea:focus,
+body.accessibility-mode select:focus {
+  outline: 3px solid #00ffcc !important;
+  outline-offset: 2px !important;
+  box-shadow: 0 0 10px rgba(0, 255, 204, 0.5) !important;
+}
+
+/* Stiluri pentru anunțurile live (screen readers) */
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* Zone live pentru anunțuri */
+.accessibility-live-region {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* Îmbunătățiri pentru quiz în modul accesibilitate */
+body.accessibility-mode .quiz-container {
+  padding: 30px;
+  border: 2px solid rgba(0, 255, 204, 0.3);
+}
+
+body.accessibility-mode .question-container li {
+  padding: 15px;
+  margin: 10px 0;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+body.accessibility-mode .question-container li:hover {
+  border-color: rgba(0, 255, 204, 0.5);
+  background-color: rgba(0, 255, 204, 0.1);
+}
+
+/* Îmbunătățiri pentru cardurile de exemple în playground */
+body.accessibility-mode .example-card {
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+body.accessibility-mode .example-card:hover,
+body.accessibility-mode .example-card.accessibility-focus {
+  border-color: #00ffcc;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 255, 204, 0.3);
+}
+
+/* Stiluri pentru feature cards în modul accesibilitate */
+body.accessibility-mode .feature-card {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+body.accessibility-mode .feature-card:hover,
+body.accessibility-mode .feature-card.accessibility-focus {
+  border-color: #00ffcc;
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 255, 204, 0.3);
+}
+
+/* Responsive pentru modul accesibilitate */
+@media (max-width: 768px) {
+  .accessibility-indicator {
+    top: 5px;
+    right: 5px;
+    font-size: 11px;
+    padding: 6px 8px;
+  }
+  
+  body.accessibility-mode {
+    font-size: 16px !important;
+  }
+  
+  .accessibility-focus {
+    outline-width: 2px !important;
+  }
+  
+  .course-card.accessibility-focus {
+    transform: translateY(-5px) !important;
+  }
+  
+  .question-container li.accessibility-focus {
+    transform: translateX(5px) !important;
+  }
+}
+
+/* Animații pentru feedback vizual în modul accesibilitate */
+@keyframes accessibility-highlight {
+  0% {
+    box-shadow: 0 0 5px rgba(0, 255, 204, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(0, 255, 204, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(0, 255, 204, 0.5);
+  }
+}
+
+/* Aplicare animație la elementele importante */
+body.accessibility-mode .main-cta:focus,
+body.accessibility-mode .submit-button:focus,
+body.accessibility-mode .start-course-btn:focus {
+  animation: accessibility-highlight 2s infinite;
+}
+
+/* Îmbunătățiri pentru vizibilitate în modul accesibilitate */
+body.accessibility-mode {
+  background-color: #0a0a0a !important;
+}
+
+body.accessibility-mode .main-banner {
+  background: linear-gradient(125deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%) !important;
+}
+
+/* Contrast îmbunătățit pentru text */
+body.accessibility-mode h1,
+body.accessibility-mode h2,
+body.accessibility-mode h3,
+body.accessibility-mode h4,
+body.accessibility-mode h5,
+body.accessibility-mode h6 {
+  color: #ffffff !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8) !important;
+}
+
+body.accessibility-mode p,
+body.accessibility-mode span,
+body.accessibility-mode div {
+  color: #f0f0f0 !important;
+}
+
+/* Îmbunătățiri pentru link-uri în modul accesibilitate */
+body.accessibility-mode a {
+  color: #00ffcc !important;
+  text-decoration: underline !important;
+  font-weight: 600 !important;
+}
+
+body.accessibility-mode a:hover,
+body.accessibility-mode a:focus {
+  color: #00ff99 !important;
+  background-color: rgba(0, 255, 204, 0.2) !important;
+  padding: 2px 4px !important;
+  border-radius: 3px !important;
+}
+
+/* Stiluri pentru loading în modul accesibilitate */
+body.accessibility-mode .loading-container {
+  border: 2px solid #00ffcc;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+body.accessibility-mode .loading-spinner {
+  border-top-color: #00ffcc !important;
+  border-right-color: #00ffcc !important;
+}
+
+/* Îmbunătățiri pentru footer în modul accesibilitate */
+body.accessibility-mode .jv-footer {
+  background: linear-gradient(0deg, #000000 0%, #1a1040 100%) !important;
+  border-top: 2px solid #00ffcc;
+}
+
+body.accessibility-mode .jv-footer a {
+  color: #00ffcc !important;
+}
+
+/* Skip links pentru navigare rapidă (opțional pentru viitor) */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 4px;
+  z-index: 10001;
+}
+
+.skip-link:focus {
+  top: 6px;
+}
+
+/* Îmbunătățiri pentru modul întunecat în accesibilitate */
+body.accessibility-mode .form-container {
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1040 100%) !important;
+  border: 2px solid rgba(0, 255, 204, 0.3);
+}
+
+body.accessibility-mode .input-group input {
+  background: rgba(0, 0, 0, 0.5) !important;
+  border: 2px solid rgba(255, 255, 255, 0.2) !important;
+  color: #ffffff !important;
+}
+
+body.accessibility-mode .input-group input:focus {
+  border-color: #00ffcc !important;
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* Îmbunătățiri pentru taburi în profil */
+body.accessibility-mode .tabButton {
+  border: 2px solid rgba(255, 255, 255, 0.2) !important;
+  color: #ffffff !important;
+}
+
+body.accessibility-mode .activeTab {
+  border-color: #00ffcc !important;
+  background: rgba(0, 255, 204, 0.2) !important;
+}
+
+/* Efecte de tranziție mai lente pentru accesibilitate */
+body.accessibility-mode * {
+  transition-duration: 0.4s !important;
+}
+
+/* Eliminăm animațiile care pot distrage în modul accesibilitate */
+body.accessibility-mode .code-snippet,
+body.accessibility-mode .planet,
+body.accessibility-mode .asteroid,
+body.accessibility-mode .shooting-star {
+  animation: none !important;
+  opacity: 0.3 !important;
+}
+
+/* Evidențiem mai bine butoanele în modul accesibilitate */
+body.accessibility-mode button {
+  border: 2px solid rgba(255, 255, 255, 0.3) !important;
+  font-weight: 600 !important;
+}
+
+body.accessibility-mode button:hover {
+  border-color: #00ffcc !important;
+  transform: scale(1.02) !important;
+}
+
+body.accessibility-mode button:focus {
+  outline: 3px solid #00ffcc !important;
+  outline-offset: 3px !important;
+}
+
+/* Îmbunătățiri pentru rezultatele quiz-ului */
+body.accessibility-mode .result-container {
+  border: 2px solid #00ffcc;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+/* Îmbunătățiri pentru cardurile de statistici din profil */
+body.accessibility-mode .statCard {
+  border: 2px solid rgba(0, 255, 204, 0.3) !important;
+  background: rgba(0, 0, 0, 0.6) !important;
+}
+
+body.accessibility-mode .statCard:hover {
+  border-color: #00ffcc !important;
+  transform: translateY(-3px) !important;
+}
+
+/* Zone de anunțuri live pentru screen readers */
+#accessibility-announcements {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* Stiluri pentru modalurile în modul accesibilitate */
+body.accessibility-mode .modal-container {
+  border: 3px solid #00ffcc !important;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1040 100%) !important;
+}
+
+body.accessibility-mode .modal-header {
+  border-bottom-color: #00ffcc !important;
+}
+
+/* Îmbunătățiri pentru achievement cards */
+body.accessibility-mode .achievementCard {
+  border: 2px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+body.accessibility-mode .achievementCard:hover,
+body.accessibility-mode .achievementCard.accessibility-focus {
+  border-color: #00ffcc !important;
+  background: rgba(0, 255, 204, 0.1) !important;
+}
+
+/* Print styles pentru accesibilitate (pentru documentație) */
+@media print {
+  .accessibility-indicator,
+  .accessibility-instructions {
+    display: none !important;
+  }
+  
+  .accessibility-focus {
+    outline: 2px solid #000 !important;
+    background: #f0f0f0 !important;
+  }
+}
+
+/* Îmbunătățiri pentru high contrast mode */
+@media (prefers-contrast: high) {
+  body.accessibility-mode {
+    background: #000000 !important;
+    color: #ffffff !important;
+  }
+  
+  body.accessibility-mode .accessibility-focus {
+    outline-color: #ffffff !important;
+    background-color: #333333 !important;
+  }
+}
+
+/* Respectăm preferințele utilizatorului pentru animații */
+@media (prefers-reduced-motion: reduce) {
+  body.accessibility-mode * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  body.accessibility-mode .accessibility-focus {
+    animation: none !important;
+  }
+}
+
+/* Adăugări la App.css pentru modul accesibilitate îmbunătățit */
+
+/* Header simplificat pentru accesibilitate */
+.accessibility-header {
+  background: #000000 !important;
+  border-bottom: 3px solid #ffffff !important;
+  position: relative !important;
+  padding: 10px 0 !important;
+}
+
+.accessibility-header .jv-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.accessibility-header .jv-header-logo h1 {
+  font-size: 24px !important;
+  color: #ffffff !important;
+  margin: 0 !important;
+  font-weight: normal !important;
+}
+
+.accessibility-header .jv-nav-list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.accessibility-header .jv-nav-link {
+  color: #ffffff !important;
+  text-decoration: none !important;
+  padding: 8px 15px !important;
+  border: 2px solid #ffffff !important;
+  border-radius: 4px !important;
+  display: inline-block !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  background: #333333 !important;
+}
+
+.accessibility-header .jv-nav-link:hover,
+.accessibility-header .jv-nav-link:focus {
+  background: #555555 !important;
+  outline: 2px solid #ffff00 !important;
+  outline-offset: 2px !important;
+}
+
+.accessibility-header .logout-btn {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Eliminăm animațiile și efectele pentru modul accesibilitate */
+body.accessibility-mode * {
+  animation: none !important;
+  transition: none !important;
+  transform: none !important;
+}
+
+/* Focus mai vizibil pentru navigarea cu Tab */
+body.accessibility-mode *:focus {
+  outline: 4px solid #ffff00 !important;
+  outline-offset: 4px !important;
+  background-color: #000033 !important;
+  color: #ffffff !important;
+}
+
+/* Simplificăm layout-ul pentru pagini */
+body.accessibility-mode .courses-page,
+body.accessibility-mode .quiz-container,
+body.accessibility-mode .code-playground-container,
+body.accessibility-mode .profile-container {
+  max-width: 800px !important;
+  margin: 20px auto !important;
+  padding: 20px !important;
+  background: #000000 !important;
+  border: 2px solid #ffffff !important;
+}
+
+/* Stiluri pentru navigarea cu taste */
+.accessibility-navigation-hint {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  background: #000000;
+  color: #ffff00;
+  padding: 10px;
+  border: 2px solid #ffff00;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 9999;
+}
+
+/* Indicator pentru modul de editare */
+body.accessibility-mode input:focus::before,
+body.accessibility-mode textarea:focus::before {
+  content: "MOD EDITARE - Apasă ESC pentru a ieși";
+  position: absolute;
+  top: -30px;
+  left: 0;
+  background: #ffff00;
+  color: #000000;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Lista de elemente pentru navigare rapidă */
+.accessibility-quick-nav {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 250px;
+  background: #000000;
+  border: 2px solid #ffffff;
+  padding: 20px;
+  display: none;
+  z-index: 9998;
+}
+
+body.accessibility-mode.show-quick-nav .accessibility-quick-nav {
+  display: block;
+}
+
+.accessibility-quick-nav h3 {
+  color: #ffff00;
+  margin: 0 0 15px 0;
+  font-size: 18px;
+}
+
+.accessibility-quick-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.accessibility-quick-nav li {
+  margin: 10px 0;
+  padding: 5px;
+  border: 1px solid #666;
+}
+
+.accessibility-quick-nav li:hover,
+.accessibility-quick-nav li:focus {
+  border-color: #ffff00;
+  background: #333333;
+}
+
+/* Simplificare pentru quiz în modul accesibilitate */
+body.accessibility-mode .question-container li {
+  padding: 15px !important;
+  margin: 10px 0 !important;
+  border: 2px solid #ffffff !important;
+  background: #111111 !important;
+  font-size: 18px !important;
+  cursor: pointer !important;
+}
+
+body.accessibility-mode .question-container li:hover,
+body.accessibility-mode .question-container li:focus {
+  border-color: #ffff00 !important;
+  background: #333333 !important;
+}
+
+body.accessibility-mode .question-container li.selected {
+  background: #003300 !important;
+  border-color: #00ff00 !important;
+}
+
+body.accessibility-mode .question-container li.correct {
+  background: #003300 !important;
+  border-color: #00ff00 !important;
+}
+
+body.accessibility-mode .question-container li.incorrect {
+  background: #330000 !important;
+  border-color: #ff0000 !important;
+}
+
+/* Feedback vizual pentru comenzi */
+.accessibility-command-feedback {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #000000;
+  color: #ffff00;
+  padding: 20px 40px;
+  border: 3px solid #ffff00;
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 10001;
+  border-radius: 10px;
+  display: none;
+}
+
+.accessibility-command-feedback.show {
+  display: block;
+  animation: command-feedback 0.5s ease-out;
+}
+
+@keyframes command-feedback {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+/* Eliminăm toate elementele decorative în modul accesibilitate */
+body.accessibility-mode .stars-background,
+body.accessibility-mode [class*="gradient"],
+body.accessibility-mode [class*="glow"],
+body.accessibility-mode [class*="shadow"],
+body.accessibility-mode [class*="animated"],
+body.accessibility-mode .cosmic-dust,
+body.accessibility-mode .planet,
+body.accessibility-mode .asteroid {
+  display: none !important;
+}
+
+/* Simplificăm toate culorile */
+body.accessibility-mode {
+  --color-background: #000000 !important;
+  --color-text-primary: #ffffff !important;
+  --color-text-secondary: #cccccc !important;
+  --color-accent: #ffff00 !important;
+  --color-primary: #00ffff !important;
+  --color-secondary: #00ff00 !important;
+}

@@ -1,0 +1,223 @@
+/* Stiluri generale pentru test */
+.quiz-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: var(--spacing-xl);
+    background-color: var(--color-background-card);
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-md);
+    transition: all var(--transition-normal);
+    text-align: center;
+    color: var(--color-text-primary);
+  }
+  
+  .quiz-container h2 {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-lg);
+  }
+  
+  /* Întrebările */
+  .question-container h3 {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-lg);
+  }
+  
+  .question-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .question-container li {
+    margin: var(--spacing-md) 0;
+    padding: var(--spacing-sm);
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: var(--border-radius-md);
+    cursor: pointer;
+    transition: background-color var(--transition-normal);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Hover când cursorul se plimbă peste variantele de răspuns */
+  .question-container li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Hover când răspunsul este selectat */
+  .question-container li.selected {
+    background-color: rgba(138, 43, 226, 0.2);
+    border-color: var(--color-primary);
+  }
+  
+  /* Când un răspuns este selectat, se aplică un efect de hover */
+  .question-container input[type="radio"] {
+    margin-right: var(--spacing-sm);
+    accent-color: var(--color-accent);
+    cursor: pointer;
+    display: none; /* Ascunde bulina radio pentru a lăsa doar textul să fie clicabil */
+  }
+  
+  /* Face întreaga linie de text clicabilă */
+  .question-container label {
+    font-size: var(--font-size-md);
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    transition: all var(--transition-normal);
+    width: 100%;
+    display: inline-block;
+    padding-left: var(--spacing-sm);
+  }
+  
+  /* Când răspunsul este selectat, îngroșăm textul */
+  .question-container input[type="radio"]:checked + label {
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-primary);
+  }
+  
+  /* Răspuns greșit */
+  .question-container li.incorrect {
+    background-color: rgba(255, 59, 48, 0.2);
+    border-color: #ff3b30;
+  }
+  
+  /* Răspuns corect */
+  .question-container li.correct {
+    background-color: rgba(52, 199, 89, 0.2);
+    border-color: #34c759;
+  }
+  
+  /* Răspuns greșit (hover) */
+  .question-container li.incorrect:hover {
+    background-color: rgba(255, 59, 48, 0.3);
+  }
+  
+  /* Răspuns corect (hover) */
+  .question-container li.correct:hover {
+    background-color: rgba(52, 199, 89, 0.3);
+  }
+  
+  /* Butoane */
+  button {
+    padding: var(--spacing-md) var(--spacing-xl);
+    font-size: var(--font-size-md);
+    border: none;
+    border-radius: var(--border-radius-xl);
+    cursor: pointer;
+    background: var(--gradient-button);
+    color: var(--color-text-primary);
+    transition: all var(--transition-normal);
+    box-shadow: var(--shadow-md);
+    margin-top: var(--spacing-lg);
+  }
+  
+  button:hover {
+    background: var(--gradient-button-hover);
+    transform: scale(1.05);
+    box-shadow: var(--shadow-glow);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* Butonul "Next" și "Restart" */
+  button:active {
+    transform: scale(0.98);
+  }
+  
+  .result-container {
+    text-align: center;
+    margin-top: var(--spacing-xl);
+  }
+  
+  .result-container p {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-md);
+  }
+  
+  .score-percentage {
+    font-size: var(--font-size-xl);
+    color: var(--color-accent);
+    margin-bottom: var(--spacing-lg);
+  }
+  
+  .result-container button {
+    background: linear-gradient(90deg, #00c853, #1de9b6);
+    margin-top: var(--spacing-lg);
+    margin-left: var(--spacing-sm);
+    margin-right: var(--spacing-sm);
+  }
+  
+  .result-container button:hover {
+    background: linear-gradient(90deg, #00a843, #16c498);
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 200, 83, 0.5);
+  }
+  
+  .result-actions {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-md);
+    flex-wrap: wrap;
+  }
+  
+  /* Stare eroare și încărcare */
+  .quiz-error, .quiz-loading {
+    text-align: center;
+    padding: var(--spacing-xl);
+    color: var(--color-text-primary);
+  }
+  
+  .quiz-error h2 {
+    color: #ff3b30;
+    margin-bottom: var(--spacing-md);
+  }
+  
+  .quiz-loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+  }
+  
+  /* Responsivitate pentru mobile */
+  @media (max-width: 768px) {
+    .quiz-container {
+      width: 90%;
+      padding: var(--spacing-md);
+      margin: 30px auto;
+    }
+  
+    .quiz-container h2 {
+      font-size: var(--font-size-lg);
+    }
+  
+    .question-container h3 {
+      font-size: var(--font-size-md);
+    }
+  
+    .question-container label {
+      font-size: var(--font-size-sm);
+    }
+  
+    button {
+      width: 100%;
+      padding: var(--spacing-sm) var(--spacing-md);
+      font-size: var(--font-size-sm);
+      margin-top: var(--spacing-md);
+    }
+    
+    .result-actions {
+      flex-direction: column;
+      gap: var(--spacing-sm);
+    }
+  }

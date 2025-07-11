@@ -1,0 +1,9 @@
+10:34:46.024 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+10:34:46.459 [main]  DEBUG com.intuit.karate.Suite - [config] karate-config.js
+10:34:46.465 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748590486461
+10:37:59.271 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+10:37:59.506 [main]  DEBUG com.intuit.karate.Suite - [config] karate-config.js
+10:37:59.511 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748590679508
+13:48:57.635 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+13:48:57.890 [main]  DEBUG com.intuit.karate.Suite - [config] karate-config.js
+13:48:57.893 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1750070937891

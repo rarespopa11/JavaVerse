@@ -1,0 +1,125 @@
+10:38:49.877 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+10:38:50.968 [main]  ERROR com.intuit.karate - login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+login.feature:7
+10:38:50.978 [main]  ERROR com.intuit.karate - login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+login.feature:7
+10:38:50.985 [main]  ERROR com.intuit.karate - login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+login.feature:7
+10:38:50.993 [main]  ERROR com.intuit.karate - login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+login.feature:7
+10:38:50.997 [main]  ERROR com.intuit.karate - login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+login.feature:7
+10:38:51.007 [main]  ERROR com.intuit.karate - login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+login.feature:7
+10:38:51.740 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) login.feature
+10:39:10.405 [main]  INFO  com.intuit.karate - Karate version: 1.5.0
+10:39:10.692 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1748590750689
+10:39:11.514 [main]  ERROR com.intuit.karate - login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+login.feature:7
+10:39:11.524 [main]  ERROR com.intuit.karate - login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+login.feature:7
+10:39:11.532 [main]  ERROR com.intuit.karate - login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+login.feature:7
+10:39:11.538 [main]  ERROR com.intuit.karate - login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+login.feature:7
+10:39:11.543 [main]  ERROR com.intuit.karate - login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+login.feature:7
+10:39:11.553 [main]  ERROR com.intuit.karate - login.feature:7
+* url baseUrl
+js failed:
+>>>>
+01: baseUrl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseUrl" is not defined
+- <js>.:program(Unnamed:1)
+
+login.feature:7
+10:39:12.256 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) login.feature

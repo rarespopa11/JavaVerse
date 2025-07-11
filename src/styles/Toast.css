@@ -1,0 +1,173 @@
+/* Toast.css - Stiluri pentru notificările toast */
+
+.toast-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  pointer-events: none; /* Permite interacțiunea cu elementele de dedesubt */
+}
+
+.toast {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  min-width: 300px;
+  max-width: 450px;
+  border-radius: 12px;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 
+    0 10px 25px rgba(0, 0, 0, 0.2),
+    0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+  animation: toast-enter 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+  overflow: hidden;
+  margin-bottom: 10px;
+  pointer-events: auto; /* Permite interacțiunea cu toast-ul */
+  color: #ffffff;
+  position: relative;
+}
+
+/* Bara de progres pentru durata */
+.toast::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  animation: toast-timer 3s linear forwards; /* Durata implicită 3s */
+}
+
+/* Stiluri pentru diferite tipuri de toast */
+.toast-success {
+  background: rgba(38, 203, 124, 0.85);
+  border-left: 4px solid #26cb7c;
+}
+
+.toast-error {
+  background: rgba(235, 87, 87, 0.85);
+  border-left: 4px solid #eb5757;
+}
+
+.toast-warning {
+  background: rgba(242, 153, 74, 0.85);
+  border-left: 4px solid #f2994a;
+}
+
+.toast-info {
+  background: rgba(47, 128, 237, 0.85);
+  border-left: 4px solid #2f80ed;
+}
+
+/* Iconițe */
+.toast-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.toast-icon svg {
+  width: 24px;
+  height: 24px;
+  stroke: currentColor;
+}
+
+/* Conținut */
+.toast-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.toast-message {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+/* Buton închidere */
+.toast-close {
+  background: transparent;
+  border: none;
+  color: currentColor;
+  opacity: 0.7;
+  cursor: pointer;
+  padding: 4px;
+  margin-left: 8px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.toast-close:hover {
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Animații */
+@keyframes toast-enter {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.toast-exit {
+  animation: toast-exit 0.3s forwards;
+}
+
+@keyframes toast-exit {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+    max-height: 200px;
+    margin-bottom: 10px;
+    padding: 16px;
+  }
+  100% {
+    transform: translateX(120%);
+    opacity: 0;
+    max-height: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+}
+
+@keyframes toast-timer {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+/* Media queries pentru responsivitate */
+@media (max-width: 576px) {
+  .toast-container {
+    top: unset;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+  }
+  
+  .toast {
+    min-width: unset;
+    width: 100%;
+  }
+}

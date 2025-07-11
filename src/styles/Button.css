@@ -1,0 +1,215 @@
+/* Button.css - Stil pentru componenta Button reutilizabilă */
+
+.jv-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-radius-xl);
+    font-family: var(--font-family-main);
+    font-weight: var(--font-weight-medium);
+    cursor: pointer;
+    transition: all var(--transition-normal);
+    position: relative;
+    overflow: hidden;
+    border: none;
+    outline: none;
+  }
+  
+  /* Variante de butoane */
+  .jv-button-primary {
+    background: var(--gradient-button);
+    color: white;
+    box-shadow: var(--shadow-md);
+  }
+  
+  .jv-button-secondary {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--color-text-primary);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .jv-button-success {
+    background: linear-gradient(90deg, #00c853, #1de9b6);
+    color: white;
+  }
+  
+  .jv-button-danger {
+    background: linear-gradient(90deg, #ff1744, #ff5252);
+    color: white;
+  }
+  
+  .jv-button-warning {
+    background: linear-gradient(90deg, #ffab00, #ffd740);
+    color: #333;
+  }
+  
+  .jv-button-info {
+    background: linear-gradient(90deg, #2196f3, #00bcd4);
+    color: white;
+  }
+  
+  .jv-button-dark {
+    background: linear-gradient(90deg, #212121, #424242);
+    color: white;
+  }
+  
+  .jv-button-light {
+    background: linear-gradient(90deg, #f5f5f5, #e0e0e0);
+    color: #333;
+  }
+  
+  /* Dimensiuni */
+  .jv-button-small {
+    padding: 8px 15px;
+    font-size: var(--font-size-sm);
+  }
+  
+  .jv-button-medium {
+    padding: 10px 20px;
+    font-size: var(--font-size-md);
+  }
+  
+  .jv-button-large {
+    padding: 12px 25px;
+    font-size: var(--font-size-lg);
+  }
+  
+  /* Efecte hover */
+  .jv-button-primary:hover:not(.jv-button-disabled) {
+    background: var(--gradient-button-hover);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+  }
+  
+  .jv-button-secondary:hover:not(.jv-button-disabled) {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  .jv-button-success:hover:not(.jv-button-disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 200, 83, 0.4);
+  }
+  
+  .jv-button-danger:hover:not(.jv-button-disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(255, 23, 68, 0.4);
+  }
+  
+  .jv-button-warning:hover:not(.jv-button-disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(255, 171, 0, 0.4);
+  }
+  
+  .jv-button-info:hover:not(.jv-button-disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(33, 150, 243, 0.4);
+  }
+  
+  .jv-button-dark:hover:not(.jv-button-disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(33, 33, 33, 0.4);
+  }
+  
+  .jv-button-light:hover:not(.jv-button-disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(224, 224, 224, 0.4);
+  }
+  
+  /* Efect de apăsare */
+  .jv-button:active:not(.jv-button-disabled) {
+    transform: translateY(0);
+  }
+  
+  /* Butoane full-width */
+  .jv-button-full-width {
+    width: 100%;
+    display: flex;
+  }
+  
+  /* Butoane dezactivate */
+  .jv-button-disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none !important;
+    box-shadow: none !important;
+  }
+  
+  /* Efect de glow */
+  .jv-button-glow {
+    animation: button-glow 2s infinite;
+  }
+  
+  @keyframes button-glow {
+    0% {
+      box-shadow: 0 0 5px rgba(138, 43, 226, 0.5);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(255, 0, 255, 0.7);
+    }
+    100% {
+      box-shadow: 0 0 5px rgba(138, 43, 226, 0.5);
+    }
+  }
+  
+  /* Spinner pentru loading state */
+  .jv-button-spinner {
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: white;
+    animation: spin 1s infinite linear;
+    margin-right: 8px;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Stiluri pentru icoane */
+  .jv-button-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .jv-button-icon-left {
+    margin-right: 8px;
+  }
+  
+  .jv-button-icon-right {
+    margin-left: 8px;
+  }
+  
+  /* Efecte speciale - ripple */
+  .jv-button::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    opacity: 0;
+    border-radius: 100%;
+    transform: scale(1, 1) translate(-50%, -50%);
+    transform-origin: 50% 50%;
+  }
+  
+  .jv-button:focus::after {
+    animation: ripple 1s ease-out;
+  }
+  
+  @keyframes ripple {
+    0% {
+      transform: scale(0, 0) translate(-50%, -50%);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(20, 20) translate(-50%, -50%);
+      opacity: 0;
+    }
+  }

@@ -1,0 +1,204 @@
+/* Header.css - Stiluri moderne pentru headerul aplicației */
+
+.jv-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: rgba(11, 10, 25, 0.8); /* Fundal semi-transparent */
+  backdrop-filter: blur(10px); /* Efect de blur pentru backdrop */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  transition: all var(--transition-normal);
+  padding: 15px 0;
+}
+
+.jv-header-scrolled {
+  background: rgba(11, 10, 25, 0.95); /* Fundalul devine mai opac la scroll */
+  padding: 10px 0;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+.jv-header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 var(--spacing-lg);
+}
+
+/* Logo */
+.jv-header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.jv-header-logo h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 1px;
+  transition: all var(--transition-normal);
+}
+
+.jv-header-scrolled .jv-header-logo h1 {
+  font-size: 2.2rem; /* Logo mai mic când se face scroll */
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+/* Navigare */
+.jv-header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.jv-nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.jv-nav-item {
+  margin: 0;
+}
+
+.jv-nav-link {
+  color: var(--color-text-primary);
+  text-decoration: none;
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-medium);
+  padding: 8px 12px;
+  border-radius: var(--border-radius-sm);
+  transition: all var(--transition-normal);
+  position: relative;
+}
+
+.jv-nav-link:hover {
+  color: var(--color-secondary);
+}
+
+/* Efect de underline animat pentru linkuri de navigare */
+.jv-nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: var(--gradient-primary);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.jv-nav-link:hover::after {
+  width: 100%;
+}
+
+/* Butonul de meniu pentru mobile */
+.jv-header-mobile-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-icon {
+  width: 30px;
+  height: 20px;
+  position: relative;
+  transform: rotate(0deg);
+  transition: .5s ease-in-out;
+}
+
+.menu-icon span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: white;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
+}
+
+.menu-icon span:nth-child(1) {
+  top: 0px;
+}
+
+.menu-icon span:nth-child(2) {
+  top: 8px;
+}
+
+.menu-icon span:nth-child(3) {
+  top: 16px;
+}
+
+.menu-icon.open span:nth-child(1) {
+  top: 8px;
+  transform: rotate(135deg);
+}
+
+.menu-icon.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+.menu-icon.open span:nth-child(3) {
+  top: 8px;
+  transform: rotate(-135deg);
+}
+
+/* Media Queries pentru responsivitate */
+@media (max-width: 768px) {
+  .jv-header-mobile-toggle {
+    display: block;
+    z-index: 1001;
+  }
+  
+  .jv-header-nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100vh;
+    background: var(--color-background-light);
+    transition: right 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .jv-header-nav.open {
+    right: 0;
+  }
+  
+  .jv-nav-list {
+    flex-direction: column;
+    gap: var(--spacing-lg);
+    width: 100%;
+    padding: var(--spacing-xl);
+  }
+  
+  .jv-nav-item {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .jv-nav-link {
+    display: block;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  .jv-nav-link::after {
+    display: none;
+  }
+}
